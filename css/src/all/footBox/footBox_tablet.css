@@ -1,0 +1,5 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #footBox {width: 100%; height: 50px; padding-top: 0;}
+  #footBox > p {display: block;}
+  #footBox > #dl_wrap {display: none;}
+}

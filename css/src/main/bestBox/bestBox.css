@@ -1,0 +1,102 @@
+/* bestBox.css */
+
+
+#bestBox {
+  box-sizing: border-box; padding: 100px 0;
+  width: 100%; height: 930px;
+}
+
+#bestBox > h2 {
+  width: 146px; height: 38px;
+  margin: auto; text-align: center; line-height: 38px;
+  font-weight: bold; color: #48217a; margin-bottom: 124px;
+  text-transform: uppercase;
+}
+
+#bestBox > ul {
+  margin: auto;
+  width: 1260px; height: 510px;
+}
+
+#bestBox > ul > li {
+  position: relative;
+  float: left; margin-right: 15px;
+  width: 303px; height: 100%;
+}
+
+#bestBox> ul > li:nth-child(4n) {
+  margin-right: 0;
+}
+
+#bestBox > ul > li > a {
+  display: block; width: 100%; height: 460px;
+}
+
+#bestBox > ul > li > button {
+  position: absolute; left: 50%; margin-left: -50px;
+  width: 100px; height: 30px; background-color: #fff;
+  border: 2px solid #222; border-top: 0; border-bottom: 0;
+  text-align: center; line-height: 30px; font-weight: bold;
+}
+
+#bestBox > ul > li > button:before {
+  z-index: 0;
+  content: ""; width: 0; height: 100%; display: block;
+  background-color: rgba(150,150,150,0.7);
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#bestBox > ul > li > button:hover:before,
+#bestBox > ul > li > button:focus:before {
+  width: 100%;
+}
+
+
+#bestBox > ul > li > a > .best_img {
+  margin-bottom: 10px;
+  width: 100%; height: 324px; 
+  background-color: #222;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+#bestBox > ul > li:nth-child(1) > a > .best_img {background-image: url(../../../../img/bestBox/juniorkit.jpg);}
+#bestBox > ul > li:nth-child(2) > a > .best_img {background-image: url(../../../../img/bestBox/revstar.jpg);}
+#bestBox > ul > li:nth-child(3) > a > .best_img {background-image: url(../../../../img/bestBox/yev_105.jpg);}
+#bestBox > ul > li:nth-child(4) > a > .best_img {background-image: url(../../../../img/bestBox/genos.png);}
+
+#bestBox > ul > li > a > .best_img:after,
+#bestBox > ul > li > a > .best_img::after {
+  content: " "; display: block; position: absolute;
+  width: 100%; height: 324px; 
+  background-image: url(../../../../img/adBox/rgba255.png);
+  -webkit-background-size: cover;
+  background-size: cover; opacity: 0; transition: all 300ms ease-out;
+}
+
+#bestBox > ul > li > a:hover > .best_img:after,
+#bestBox > ul > li > a:hover > .best_img::after,
+#bestBox > ul > li > a:focus > .best_img:after,
+#bestBox > ul > li > a:focus > .best_img::after {opacity: 1;}
+
+#bestBox > ul dl {
+  width: 100%; height: auto;
+}
+
+#bestBox > ul dt {
+  width: 100%; height: auto;
+  text-align: center; font-weight: bold; text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+#bestBox > ul dd {
+  margin: auto;
+  width: 80%; height: auto; text-align: center;
+  font-size: 0.875rem; line-height: 1.3;
+}

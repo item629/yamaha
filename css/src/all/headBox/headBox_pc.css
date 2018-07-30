@@ -1,0 +1,18 @@
+
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+  #wrap {min-width: 1260px;}
+  #headBox > h1 {bottom: -26px; margin-left: -46.120058vw /*630/1366*100*/;}
+  #navigation {margin-left: -12.811127vw; /*175/1366*100*/ width: 61.786237vw; /*844/1366*100*/}
+  #gnb > li {width: 11.420204vw; /*156/1366*100*/margin-right: 0.439238vw; /*6/1366*100*/}
+  #gnb > li:nth-child(3) {width: 14.348462vw; /*190/1366*100*/}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1260px) {
+    #headBox {height: 56px;}
+  #navigation {display: none;}
+  #top {display: none;}
+  #mobile_navi {display: block;}
+  #sub_menu {width: 200px;}
+  #sub_menu > dl > dt > button {font-size: 1rem;}
+}

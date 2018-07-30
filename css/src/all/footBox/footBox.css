@@ -1,0 +1,57 @@
+/* footBox.css */
+
+#footBox {
+  box-sizing: border-box; padding-top: 30px;
+  width: 100%; height: 340px; background-color: #48217a;
+}
+
+#footBox > p {
+  display: none; width: 100%; height: 100%;
+  text-align: center; color: #fff; line-height: 50px; font-size: 0.7rem;
+}
+
+#footBox > #dl_wrap {
+  margin: auto;
+  width: 960px; height: auto; min-height: 100px;
+}
+
+#dl_wrap > dl { background-color: #48217a;
+  float: left; margin-right: 72px;
+  height: auto;
+  }
+
+#dl_wrap > dl:nth-of-type(1) {
+  width: 120px;
+}
+
+#dl_wrap > dl:nth-of-type(2) {
+  width: 158px;
+}
+
+#dl_wrap > dl:nth-of-type(3) {
+  width: 136px;
+}
+
+#dl_wrap > dl:nth-of-type(4) {
+  width: 146px;
+}
+
+#dl_wrap > dl:last-of-type {
+  width: 112px; margin-right: 0;
+}
+
+#dl_wrap > dl > dt {
+  margin-bottom: 10px;
+}
+
+#dl_wrap > dl > dd {
+  margin-bottom: 5px;
+}
+
+#dl_wrap > dl > dt > a {
+  color: #fff; font-size: 1.3rem; font-weight: bold;
+}
+
+#dl_wrap > dl > dd > a {
+  color: #fff; font-size: 12px;
+}

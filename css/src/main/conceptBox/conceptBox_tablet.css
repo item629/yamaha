@@ -1,0 +1,8 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #conceptBox {height: 1024px;}
+  #conceptBox > div {width: 618px; height: 816px;}
+  #conceptBox > div > article {width: 618px; height: 402px;}
+  .avantgrand {margin-bottom: 14px;}
+  #conceptBox > div > article > button {top: 266px; margin-left: -83px;
+      background-image: url(../../../../img/adBox/rgba255.png);}
+}

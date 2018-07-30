@@ -1,0 +1,60 @@
+/* conceptBox.css */
+
+#conceptBox {
+  width: 100%; height: 630px;
+}
+
+#conceptBox > h2 {
+  width: 340px; height: 38px;
+  margin: auto; text-align: center; line-height: 38px;
+  font-weight: bold; color: #48217a; margin-bottom: 116px;
+  text-transform: capitalize;
+}
+
+#conceptBox > div {
+  margin: auto;
+  width: 960px; height: 400px;
+}
+
+#conceptBox > div > article {
+  float: left; position: relative;
+  width: 466px; height: 400px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; background-position: center;
+}
+
+.avantgrand {
+  margin-right: 26px;
+  background-image: url(../../../../img/conceptBox/avantgrand.png);
+}
+
+.clavinova {
+  background-image: url(../../../../img/conceptBox/clavinova.png);
+}
+
+#conceptBox > div > article > a {
+  width: 100%; height: 100%; display: block;
+  cursor: zoom-in;
+}
+
+#conceptBox > div > article > button {
+  position: absolute; top: 254px; left: 50%; margin-left: -80px;
+  border: 2px solid #fff; border-top: 0; border-bottom: 0;
+  width: 160px; height: 54px; color: #fff; font-size: 1rem;
+}
+
+#conceptBox > div > article > button:before {
+  content: ""; width: 0; height: 100%; display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#conceptBox > div > article > button:hover:before,
+#conceptBox > div > article > button:focus:before {
+  width: 100%;
+}

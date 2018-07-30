@@ -1,0 +1,43 @@
+@import url('../all/headBox/headBox.css');
+@import url('../all/headBox/headBox_pc.css');
+@import url('../all/headBox/headBox_tablet.css');
+@import url('../all/headBox/headBox_mobile.css');
+
+@import url('../all/sideBox/sideBox.css');
+@import url('../all/sideBox/sideBox_pc.css');
+
+@import url('./adBox/adBox.css');
+@import url('./adBox/adBox_pc.css');
+@import url('./adBox/adBox_tablet.css');
+@import url('./adBox/adBox_mobile.css');
+
+@import url('./bestBox/bestBox.css');
+@import url('./bestBox/bestBox_tablet.css');
+@import url('./bestBox/bestBox_mobile.css');
+
+@import url('./specialBox/specialBox.css');
+@import url('./specialBox/specialBox_tablet.css');
+@import url('./specialBox/specialBox_mobile.css');
+
+@import url('./artistBox/artistBox.css');
+@import url('./artistBox/artistBox_pc.css');
+@import url('./artistBox/artistBox_tablet.css');
+@import url('./artistBox/artistBox_mobile.css');
+
+@import url('./conceptBox/conceptBox.css');
+@import url('./conceptBox/conceptBox_tablet.css');
+@import url('./conceptBox/conceptBox_mobile.css');
+
+@import url('./snsBox/snsBox.css');
+
+@import url('./eventBox/eventBox.css');
+@import url('./eventBox/eventBox_tablet.css');
+@import url('./eventBox/eventBox_mobile.css');
+
+@import url('../all/subBox/subBox.css');
+@import url('../all/subBox/subBox_tablet.css');
+@import url('../all/subBox/subBox_mobile.css');
+
+@import url('../all/footBox/footBox.css');
+@import url('../all/footBox/footBox_tablet.css');
+@import url('../all/footBox/footBox_mobile.css');

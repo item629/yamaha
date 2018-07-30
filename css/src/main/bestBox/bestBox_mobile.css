@@ -1,0 +1,13 @@
+
+
+@media screen and (max-width: 480px) {
+  #bestBox {height: 1454px;}
+  #bestBox > ul {margin: auto; width: 63.125vw; /*303/480*100*/ min-width: 280px; height: 227.083333vw; /*1090/480*100*/ min-height: 1006px;}
+  #bestBox > ul > li {width: 63.125vw; /*303/480*100*/ min-width: 280px;  height: 104.166666vw; /*500/480*100*/                  min-height: 462px; margin-bottom: 15.833333vw; /*76/480*100*/}
+  #bestBox > ul > li > a {height: 95.833333vw; /*460/480*100*/ min-height: 425px;}
+  #bestBox > ul > li > a > .best_img {height: 67.5vw; /*324/480*100*/ min-height: 298px;
+                                      margin-bottom: 10px;}
+  #bestBox > ul > li > button {bottom: 0;}
+  #bestBox> ul > li:nth-child(3),
+  #bestBox> ul > li:nth-child(4) {display: none;}
+}

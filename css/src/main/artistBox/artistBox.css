@@ -1,0 +1,88 @@
+/* artistBox.css */
+
+#artistBox {
+  position: relative;
+  box-sizing: border-box; padding: 100px 0; 
+  width: 100%; height: 925px;
+}
+
+#artistBox > h2 {
+  width: 340px; height: 38px;
+  margin: auto; text-align: center; line-height: 38px;
+  font-weight: bold; color: #48217a; margin-bottom: 125px;
+  text-transform: capitalize;
+}
+
+
+/* arti_indi -------------------------------------- */
+
+
+.arti_indi {
+  box-sizing: border-box; padding: 0 2px;
+  position: absolute; top: 200px; left: 50%; margin-left: -53px;
+  width: 106px; height: 20px;
+}
+
+.arti_indi > li {
+  float: left; margin-right: 8px;
+  width: 14px; height: 15px;
+}
+
+.arti_indi > li:last-child {
+  margin-right: 0;
+}
+
+.arti_indi > li > a {
+   box-sizing: border-box; border-radius: 1rem; 
+   border: 1px solid #48217a;
+}
+
+.arti_indi > li.active > a,
+.arti_indi > li > a:hover,
+.arti_indi > li > a:focus {
+  border: 0; background-color: #48217a;
+}
+
+
+
+/* slide_vedio ---------------------------------------- */
+
+
+.slide_vedio {
+  width: 100%; height: 100%; overflow: hidden;
+}
+
+/* slide_vedio --------------------------------------- */
+
+.slide_vedio > .vedio_list {
+  width: 500%; height: 350px;
+}
+
+.slide_vedio > .vedio_list > li {
+  float: left; position: relative;
+  margin-right: 70px; width: 330px; height: 350px;
+  background-repeat: no-repeat; background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.slide_vedio > .vedio_list > li:nth-child(1) {margin-left: 50px;}
+
+.slide_vedio > .vedio_list > li > a {
+  display: block;
+  width: 100%; height: 100%;
+}
+
+.slide_vedio > .vedio_list > li > a > span {
+  position: absolute; bottom: -30px;
+  width: 100%; height: auto; text-align: center; font-weight: bold;
+}
+
+.slide_vedio > .vedio_list > li > a:hover,
+.slide_vedio > .vedio_list > li > a:focus {
+  background-image: url(../../../../img/artistBox/play.png);
+  background-repeat: no-repeat; background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;   
+}
+

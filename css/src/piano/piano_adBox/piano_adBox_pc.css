@@ -1,0 +1,5 @@
+
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+  #adBox > button {width: 12.152269vw; /*166/1366*100*/ height: 4.685212vw; /*64/1366*100*/}
+}

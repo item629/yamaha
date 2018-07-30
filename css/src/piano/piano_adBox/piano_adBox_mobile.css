@@ -1,0 +1,9 @@
+
+
+@media screen and (max-width: 480px) {
+#adBox {height: 155.208333vw; /*745/480*100*/}
+  #adBox > button {width: 17.96875vw; /*138/768*100*/ min-width: 100px; height: 7.291666vw; min-height: 40px; font-size: 16px; /*54/768*100*/
+                   margin-left: 9.114583vw; /*70/768*100*/ border: 0; 
+                   background-image: url(../../../../img/adBox/rgba255.png); background-size: cover;}
+  #adBox > .slide_banner > ul > li {background-position: 80% 100%;}
+}

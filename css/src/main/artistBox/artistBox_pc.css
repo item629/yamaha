@@ -1,0 +1,6 @@
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+  #artistBox { height: 782px;}
+  .slide_vedio > .vedio_list {width: 1000%; height: 358px;}
+  .slide_vedio > .vedio_list > li {width: 288px; height: 300px;}
+  .slide_vedio > .vedio_list > li:first-child {margin-left: 50px;}
+}

@@ -1,0 +1,112 @@
+/* eventBox.css */
+
+#eventBox {
+  box-sizing: border-box; padding: 100px 0;
+  width: 100%; height: 1034px;
+}
+
+#eventBox > h2 {
+  width: 340px; height: 38px;
+  margin: auto; text-align: center; line-height: 38px;
+  font-weight: bold; color: #48217a; margin-bottom: 116px;
+  text-transform: capitalize;
+}
+
+#eve_wrap {
+  margin: auto;
+  width: 1062px; height: 624px;
+}
+
+#eve_wrap > ul {
+  width: 100%; height: 100%;
+}
+
+#eve_wrap > ul > li {
+  position: relative;
+  float: left;
+  width: 192px; height: 192px; margin-right: 26px; margin-bottom: 18px;
+}
+
+#eve_wrap > ul > li > a {
+  width: 100%; height: 100%; display: block;
+  box-sizing: border-box; border: 1px solid #cacaca;
+  background-repeat: no-repeat;
+  background-position: center; background-size: cover;
+}
+
+#eve_wrap > ul > li:first-child {
+  width: 402px; height: 402px;
+}
+
+#eve_wrap > ul > li:nth-child(6) {
+  height: 402px; margin-right: 0; margin-top: -210px; 
+}
+
+#eve_wrap > ul > li:nth-child(7) {
+  width: 620px;
+}
+
+#eve_wrap > ul > li:last-child {
+  margin-right: 0;
+}
+
+.eve_hei {
+   height: 190px;
+}
+
+#eve_wrap > ul > li:nth-child(1) > a {background-image: url(../../../../img/eventBox/eve_ban_01.jpg);}
+#eve_wrap > ul > li:nth-child(2) > a {background-image: url(../../../../img/eventBox/eve_ban_02.jpg);}
+#eve_wrap > ul > li:nth-child(3) > a {background-image: url(../../../../img/eventBox/eve_ban_03.jpg);}
+#eve_wrap > ul > li:nth-child(4) > a {background-image: url(../../../../img/eventBox/eve_ban_04.jpg);}
+#eve_wrap > ul > li:nth-child(5) > a {background-image: url(../../../../img/eventBox/eve_ban_05.jpg);}
+#eve_wrap > ul > li:nth-child(6) > a {background-image: url(../../../../img/eventBox/eve_ban_06_pc.jpg);}
+#eve_wrap > ul > li:nth-child(7) > a {background-image: url(../../../../img/eventBox/eve_ban_07_pc.jpg);}
+#eve_wrap > ul > li:nth-child(8) > a {background-image: url(../../../../img/eventBox/eve_ban_08.jpg);}
+#eve_wrap > ul > li:nth-child(9) > a {background-image: url(../../../../img/eventBox/eve_ban_09.jpg);}
+
+#eve_wrap > ul > li > a:after,
+#eve_wrap > ul > li > a::after {
+  content: " "; display: block;
+  width: 100%; height: 100%;
+  background-image: url(../../../../img/adBox/rgba22.png);
+  -webkit-background-size: cover; background-position: center;
+  background-repeat: no-repeat; cursor: zoom-in;
+  background-size: cover; opacity: 0; transition: all 300ms ease-out;
+}
+
+#eve_wrap > ul > li > a:before,
+#eve_wrap > ul > li > a::before {
+  content: "보러가기"; display: block;
+  position: absolute; top: 50%; left: 50%; margin-top: -20px; margin-left: -60px;
+  box-sizing: border-box; border: 2px solid #fff; border-top: 0; border-bottom: 0;
+  font-size: 1rem; text-align: center; line-height: 40px; color: #fff;
+  background-image: url(../../../../img/adBox/rgba255.png);
+  background-repeat: no-repeat; background-position: center;
+  background-size: cover;
+  width: 120px; height: 40px; opacity: 0; transition: all 300ms ease-out;
+}
+
+#eve_wrap > ul > li:nth-child(1) > a:before,
+#eve_wrap > ul > li:nth-child(1) > a::before,
+#eve_wrap > ul > li:nth-child(7) > a:before,
+#eve_wrap > ul > li:nth-child(7) > a::before {
+  content: "보러가기"; display: block;
+  position: absolute; top: 50%; left: 50%; margin-top: -27px; margin-left: -80px;
+  box-sizing: border-box; border: 2px solid #fff; border-top: 0; border-bottom: 0;
+  font-size: 1rem; text-align: center; line-height: 54px; color: #fff;
+  background-image: url(../../../../img/adBox/rgba255.png);
+  background-repeat: no-repeat; background-position: center;
+  background-size: cover;
+  width: 160px; height: 54px; opacity: 0; transition: all 300ms ease-out;
+}
+
+#eve_wrap > ul > li:hover > a:after,
+#eve_wrap > ul > li:hover > a::after,
+#eve_wrap > ul > li:focus > a:after,
+#eve_wrap > ul > li:focus > a::after,
+#eve_wrap > ul > li:hover > a:before,
+#eve_wrap > ul > li:hover > a::before,
+#eve_wrap > ul > li:focus > a:before,
+#eve_wrap > ul > li:focus > a::before {
+  opacity: 1;
+}

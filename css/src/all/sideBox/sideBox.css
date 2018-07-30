@@ -1,0 +1,225 @@
+/* sideBox.css */
+
+
+/* subbox와 내용은 같게, 세로형으로 펼치면 보이게 하기*/
+#sideBox {
+  /*display: none;*/
+  position: fixed; top: 0; right: 0; z-index: 9000;
+  width: 180px; height: 100%; background-color: #fff;
+}
+
+  #side_btn {
+    position: absolute; top: 40%; margin-top: -54px; left: -36px;
+    width: 36px; height: 108px;
+  }
+
+  #side_btn > ul {
+    width: 100%; height: auto;
+  }
+
+  #side_btn > ul > li {
+    position: relative;
+    box-sizing: border-box; border: 0.5px solid #dfdfdf; border-top: 0;
+    width: 100%; height: 36px; background-color: #fff;
+    font-size: 1rem; text-align: center; line-height: 2.5;
+  }
+
+  #side_btn > ul > li:nth-child(1) {
+    border: 0;
+  }
+
+  #side_btn > ul > li.active {
+    background-color: #222;
+  }
+
+  #side_btn > ul > li.active i {
+    color: #fff;
+  }
+
+  #side_btn > ul > li:hover  span,
+  #side_btn > ul > li:focus  span {
+    position: absolute; right: 15px; top: 10%;
+    width: 100px; height: 30px; z-index: 100;
+    font-size: 0.785rem;
+  }
+
+
+  /* #slide_banner */
+
+  #slide_banner {
+    margin: auto; margin-top: 14px; margin-bottom: 66px;
+    overflow: hidden;
+    width: 150px; height: 150px; background-color: #aaa;
+  }
+
+  #slide_banner > ul {
+    width: 600%; height: 100%;
+  }  
+
+  #slide_banner > ul > li {
+    float: left;
+    width: 16.666666%; height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover; background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #slide_banner > ul > li:nth-child(1) {
+    background-image: url(../../../../img/eventBox/eve_ban_01.jpg);
+  }
+
+  #slide_banner > ul > li:nth-child(2) {
+    background-image: url(../../../../img/eventBox/eve_ban_02.jpg);
+  }
+
+  #slide_banner > ul > li:nth-child(3) {
+    background-image: url(../../../../img/eventBox/eve_ban_03.jpg);
+  }
+
+  #slide_banner > ul > li:nth-child(4) {
+    background-image: url(../../../../img/eventBox/eve_ban_04.jpg);
+  }
+
+  #slide_banner > ul > li:nth-child(5) {
+    background-image: url(../../../../img/eventBox/eve_ban_05.jpg);
+  }
+
+  #slide_banner > ul > li:nth-child(6) {
+    background-image: url(../../../../img/eventBox/eve_ban_01.jpg);
+  }
+
+  /* #fam_site */
+
+  #fam_site {
+    margin: auto; margin-bottom: 30px;
+    width: 146px; height: 100px;
+  }
+
+  #fam_site > ul {
+    width: 100%; height: 100%;
+  }
+
+  #fam_site > ul > li {
+    float: left;
+    width: 70px; height: 30px; margin-right: 6px; margin-bottom: 5px;
+  }
+  
+  #fam_site > ul > li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  #fam_site > ul > li > a {
+    position: relative;
+    display: block; width: 100%; height: 100%; 
+    box-sizing: border-box; border: 1px solid #222; font-weight: bold;
+    font-size: 0.7rem; text-align: center; color: #222;
+    text-transform: uppercase; word-spacing: 0.1px; line-height: 30px;
+  }
+
+
+  #fam_site > ul > li > a:before {
+  content: ""; width: 0; height: 100%; display: block;
+  background-color: rgba(74, 29 ,119, 0.3);
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+  #fam_site > ul > li > a:hover:before,
+  #fam_site > ul > li > a:focus:before {
+    width: 100%;
+  }
+
+  .mbzero {
+    margin-bottom: 0;
+  }
+
+  /* #side_sns_btn */
+  
+  #side_sns_btn {
+    position: relative;
+    margin-left: 16px; margin-bottom: 174px;
+    width: 66px; height: 66px;
+  }
+
+  #side_sns_btn > ul {
+    width: 100%; height: 100%;
+  }
+
+  #side_sns_btn > ul > li {
+    float: left; margin-right: 0; margin-bottom: 4px;
+    width: 31px; height: 31px;   
+  }
+
+  #side_sns_btn > ul > li:first-child {
+    margin-right: 4px;
+  }
+
+  #side_sns_btn > ul > li > a {
+    font-size: 2.1rem;
+  }
+
+    #side_sns_btn > ul > li > a > i {
+      color: #ccc;
+    }
+
+    #side_sns_btn > ul > li:first-child:hover > a > i,    
+    #side_sns_btn > ul > li:first-child:focus > a > i {
+      color: #3E5B99;
+    }
+
+    #side_sns_btn > ul > li:nth-child(2):hover > a > i,    
+    #side_sns_btn > ul > li:nth-child(2):focus > a > i {
+      color: #F00;
+    }
+
+    #side_sns_btn > ul > li:last-child:hover > a > i,    
+    #side_sns_btn > ul > li:last-child:focus > a > i {
+      color: #00c73c;
+    }
+
+  #blog_map {
+    position: absolute; top: 35px; left: 35px;
+    width: 100px; height: 172px;
+  }
+
+  #blog_map > ul {
+    width: 100%; height: 100%;
+  }
+
+  #blog_map > ul > li {
+    margin-bottom: 5px;
+    width: 100%; height: 30px;
+  }
+
+  #blog_map > ul > li > a {
+  display: block; width: 100%; height: 100%; position: relative;
+  box-sizing: border-box; border: 1px solid #222; font-weight: bold;
+  font-size: 0.7rem; text-align: center; color: #222;
+  text-transform: uppercase; word-spacing: 0.1px; line-height: 30px;
+  }
+  
+  /* #contact_area */
+
+  #contact_area {
+    position: absolute; left: 5%;
+    width: 90%; height: 116px;
+    border-top: 2px dotted #ccc; 
+  }
+
+  #contact_area > h3 {
+    font-size: 1.5rem; margin-top: 1rem; margin-bottom: 1rem;
+    text-align: center; text-transform: uppercase;
+  }
+
+  #contact_area > p {
+    margin-bottom: 0.5rem;
+    text-align: center; font-size: 0.785rem;
+    text-transform: capitalize;
+  }
+
+  #contact_area > .tel {
+    font-size: 1rem; font-weight: bold;
+  }

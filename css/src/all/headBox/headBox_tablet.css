@@ -1,0 +1,13 @@
+@media screen and (min-width: 481px) and (max-width:768px) {
+  #wrap {min-width: 650px;}
+  #headBox {height: 56px;}
+  #headBox > h1 {margin-left: -45.052083vw /*346/768*100*/;/* bottom: -16px;*/ top:10px;
+                width: 188px; height: 42px;}
+  #headBox.bgsize:after {top: 56px;}
+  #headBox.bgsize {height: 56px;}
+  #navigation {display: none;}
+  #top {display: none;}
+  #mobile_navi {display: block;}
+  #sub_menu {width: 200px;}
+  #sub_menu > dl > dt > button {font-size: 1rem;}
+}

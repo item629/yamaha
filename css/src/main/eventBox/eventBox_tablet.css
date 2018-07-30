@@ -1,0 +1,18 @@
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  #eventBox {padding-bottom: 13.020833vw;/*100/768*100*/}
+  #eve_wrap {width: 618px; height: 612px;}
+  #eve_wrap > ul > li {margin-right: 0;  margin-bottom: 20px;}
+  #eve_wrap > ul > li:nth-child(1) {margin-right: 24px;}
+  #eve_wrap > ul > li:nth-child(4) {width: 100%;}
+  #eve_wrap > ul > li:nth-child(4) > a {background-image: url(../../../../img/eventBox/eve_ban_ta04.jpg);}  
+  .eve_mr {margin-right: 0;}
+  .t_none {display: none;}
+  #eve_wrap > ul > li:hover > a:after,
+  #eve_wrap > ul > li:hover > a::after,
+  #eve_wrap > ul > li:focus > a:after,
+  #eve_wrap > ul > li:focus > a::after,
+  #eve_wrap > ul > li:hover > a:before,
+  #eve_wrap > ul > li:hover > a::before,
+  #eve_wrap > ul > li:focus > a:before,
+  #eve_wrap > ul > li:focus > a::before {display: none;}
+}

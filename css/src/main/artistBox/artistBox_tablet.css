@@ -1,0 +1,9 @@
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #artistBox {height: 694px;}
+  #artistBox > .slide {margin-top: 0;}
+  .slide_vedio > .vedio_list {width: 2000%; height: 270px;}
+  .slide_vedio > .vedio_list > li {margin-right: 38px; width: 214px; height: 224px;}
+  .slide_vedio > .vedio_list > li:first-child {margin-left: 20px;}
+  #snsBox {display: none;}
+}
