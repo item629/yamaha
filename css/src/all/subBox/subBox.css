@@ -65,12 +65,12 @@
   transition: all 300ms ease;
 }
 
-.l_area > ul > li > a:hover:after,
+/*.l_area > ul > li > a:hover:after,
 .l_area > ul > li > a:hover::after,
 .l_area > ul > li > a:focus:after,
 .l_area > ul > li > a:focus::after {
   width: 90%; height: 3px; transform: translate(-3px);
-}
+}*/
 
 .r_area {
   float: right; background-image: url(../../../../img/subBox/subFnbBox_02.png);
@@ -120,7 +120,7 @@
   
   .contactUs >  .tel {
     text-transform: capitalize;
-    font-size: 2.5rem; font-weight: bold;
+    font-size: 2rem; font-weight: bold;
   }
   
   .contactUs >  .korea {
