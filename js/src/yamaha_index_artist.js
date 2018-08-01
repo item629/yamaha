@@ -8,23 +8,23 @@
   var artist = [
     {"img" : "pizarro.jpg",       "title" : "동영상01"},
     {"img" : "sande.jpg",         "title" : "동영상02"},
-    {"img" : "tristano.jpg",  "title" : "동영상03"},
-    {"img" : "mikadze.jpg",      "title" : "동영상04"},
+    {"img" : "tristano.jpg",      "title" : "동영상03"},
+    {"img" : "mikadze.jpg",       "title" : "동영상04"},
     {"img" : "straub.jpg",        "title" : "동영상05"},
     {"img" : "pizarro.jpg",       "title" : "동영상06"},
     {"img" : "sande.jpg",         "title" : "동영상07"},
-    {"img" : "tristano.jpg",  "title" : "동영상08"},
-    {"img" : "mikadze.jpg",      "title" : "동영상09"},
+    {"img" : "tristano.jpg",      "title" : "동영상08"},
+    {"img" : "mikadze.jpg",       "title" : "동영상09"},
     {"img" : "straub.jpg",        "title" : "동영상10"},
     {"img" : "pizarro.jpg",       "title" : "동영상11"},
     {"img" : "sande.jpg",         "title" : "동영상12"},
-    {"img" : "tristano.jpg",  "title" : "동영상13"},
-    {"img" : "mikadze.jpg",      "title" : "동영상14"},
+    {"img" : "tristano.jpg",      "title" : "동영상13"},
+    {"img" : "mikadze.jpg",       "title" : "동영상14"},
     {"img" : "straub.jpg",        "title" : "동영상15"},
     {"img" : "pizarro.jpg",       "title" : "동영상16"},
     {"img" : "sande.jpg",         "title" : "동영상17"},
-    {"img" : "tristano.jpg",  "title" : "동영상18"},
-    {"img" : "mikadze.jpg",      "title" : "동영상19"},
+    {"img" : "tristano.jpg",      "title" : "동영상18"},
+    {"img" : "mikadze.jpg",       "title" : "동영상19"},
     {"img" : "straub.jpg",        "title" : "동영상20"}
   ]
 
@@ -59,6 +59,5 @@
     vedio.stop().animate({marginLeft: c}, 1000);
 
   });
-
 
 })(jQuery);

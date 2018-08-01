@@ -8,11 +8,116 @@
   width: 146px; height: 38px;
   margin: auto; text-align: center; line-height: 38px;
   font-weight: bold; color: #48217a; margin-bottom: 124px;
-  text-transform: uppercase;
+  text-transform: uppercase; margin-bottom: 100px;
 }
 
   #sub_map {
     position: absolute; top: 100px; right: 50%; margin-right: -628px;
     width: 148px; height: 20px;
     background-color: #ccc;
+  }
+
+  .piano {
+    position: relative;
+    margin: auto; margin-bottom: 100px;
+    padding-top: 100px;
+    box-sizing: border-box; border-top: 1px dotted #ccc;
+    width: 90%; height: 590px;
+  }
+
+  .up {
+    margin-bottom: 0;
+  }
+
+  #piano_wrap h4 {
+    position: absolute; top: -24px; left: 0;
+    width: 190px; height: 22px; color: #ccc;
+  }
+
+  .piano > ul {
+    margin: auto;
+    width: 1260px; height: 510px;
+  }
+
+  .piano > ul > li {
+    position: relative;
+    float: left; margin-right: 15px;
+    width: 303px; height: 100%;
+  }
+
+  .piano > ul > li:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .piano > ul > li > a {
+  display: block; width: 100%; height: 460px;
+  }
+
+  .piano > ul > li > button {
+    position: absolute; left: 50%; margin-left: -50px;
+    width: 100px; height: 30px;
+    border: 2px solid #222; border-top: 0; border-bottom: 0;
+    text-align: center; line-height: 30px; font-weight: bold;
+  }
+
+  .piano > ul > li > button:before {
+    z-index: 0;
+    content: ""; width: 0; height: 100%; display: block;
+    background-color: rgba(150,150,150,0.7);
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .piano > ul > li > button:hover:before,
+  .piano > ul > li > button:focus:before {
+    width: 100%;
+  }
+
+
+  .piano > ul > li > a > .piano_img {
+    margin-bottom: 10px;
+    width: 100%; height: 324px; 
+    background-color: #222;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+/*
+  .piano > ul > li:nth-child(1) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
+  .piano > ul > li:nth-child(2) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
+  .piano > ul > li:nth-child(3) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
+  .piano > ul > li:nth-child(4) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
+*/
+  .piano > ul > li > a > .piano_img:after,
+  .piano > ul > li > a > .piano_img::after {
+    content: " "; display: block; position: absolute;
+    width: 100%; height: 324px;
+    background-image: url(../../../../img/adBox/rgba255.png);
+    -webkit-background-size: cover;
+    background-size: cover; opacity: 0; transition: all 300ms ease-out;
+  }
+
+  .piano > ul > li > a:hover > .piano_img:after,
+  .piano > ul > li > a:hover > .piano_img::after,
+  .piano > ul > li > a:focus > .piano_img:after,
+  .piano > ul > li > a:focus > .piano_img::after {opacity: 1;}
+
+  .piano > ul dl {
+    width: 100%; height: auto;
+  }
+
+  .piano > ul dt {
+    width: 100%; height: auto;
+    text-align: center; font-weight: bold; text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+
+  .piano > ul dd {
+    margin: auto;
+    width: 80%; height: auto; text-align: center;
+    font-size: 0.875rem; line-height: 1.3;
   }

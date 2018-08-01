@@ -35,12 +35,12 @@
 
 #conceptBox > div > article > a {
   width: 100%; height: 100%; display: block;
-  cursor: zoom-in;
+  cursor: zoom-in; 
 }
 
 #conceptBox > div > article > button {
   position: absolute; top: 254px; left: 50%; margin-left: -80px;
-  border: 2px solid #fff; border-top: 0; border-bottom: 0;
+  border: 2px solid #fff; border-top: 0; border-bottom: 0; z-index: 1000;
   width: 160px; height: 54px; color: #fff; font-size: 1rem;
 }
 
@@ -57,4 +57,24 @@
 #conceptBox > div > article > button:hover:before,
 #conceptBox > div > article > button:focus:before {
   width: 100%;
+}
+
+.modal_box {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; height: 90%; z-index: 2000;
+  background-repeat: no-repeat; -webkit-background-size: cover;
+  background-size: cover; background-position: center;
+}
+
+.modal_box > video {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; height: 100%;
+}
+
+.modal_bg {
+  position: fixed; top: 0; left: 0; z-index: 1300;
+  width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);
 }

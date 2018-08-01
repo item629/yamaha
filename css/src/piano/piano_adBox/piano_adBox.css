@@ -2,99 +2,16 @@
 
 #adBox{
   position: relative;
-  width: 100%; height: 850px;
+  width: 100%; height: 810px;
 }
 
-/*indicator*/
-
-#adBox > .indicator {
-  position: absolute; right: 50%; margin-right: -30px; bottom: 50px;
-  box-sizing: border-box; padding: 1px;
-  width: 60px; height: 14px;
-}
-
-#adBox > .indicator > li {
-  float: left;
-  margin-right: 8px; width: 14px; height: 14px;
-}
-
-#adBox > .indicator > li:last-child {
-  margin-right: 0;
-}
-
-#adBox > .indicator > li > a {
-  display: block; width: 100%; height: 100%; border-radius: 100%;
-  border: 1px solid #fff;
-}
-
-#adBox > .indicator > li > a:hover,
-#adBox > .indicator > li > a:focus {
-  background-color: #fff;
-}
-
-#adBox > .indicator > li.select > a {
-  background-color: #fff;
-}
-
-/*slide_btn*/
-
-#adBox > .slide_btn {
-  z-index: 100;
-  position: absolute; top: 50%; margin-top: -24px; 
-  left: 50%; margin-left: -40%; width: 80%;
-}
-
-#adBox > .slide_btn > button {
-  width: 32px; height: 48px;
-  text-align: center; font-size: 3.2rem; line-height: 48px;
-}
-
-#adBox  .prev_btn {float: left;}
-#adBox  .next_btn {float: right;}
-
-#adBox > .slide_btn > button:hover,
-#adBox > .slide_btn > button:focus {
-  color: #48217a;
-}
-
-
-/* text_area */
-
-
-#adBox > button {
-  position: absolute; left: 50%; margin-left: 300px; bottom: 160px;
-  box-sizing: border-box; border: 2px solid #fff; border-top: 0; border-bottom: 0;
-  width: 166px; height: 64px; font-size: 1.5rem; color: #fff;
-}
-
-/*js에서 fadeIn, fadeOut 사용하기*/
-#adBox > button:hover,
-#adBox > button:focus {
-  border: 0; 
-  background-image: url(../../../../img/adBox/rgba255.png);
-  background-size: cover;
-}
-
-
-/* slide_banner */
-
-
-#adBox > .slide_banner {
-  overflow: hidden;
+#adBox > #video {
+  position: relative; overflow: hidden;
   width: 100%; height: 100%;
 }
 
-#adBox > .slide_banner > ul {
-  width: 300%; height: 100%;
+#video > video {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto; height: auto; min-width: 100%; min-height: 90%;
 }
-
-#adBox > .slide_banner > ul > li {
-  float: left; width: 33.333333%; height: 100%;
-  background-repeat: no-repeat; background-position: center;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-
-#adBox > .slide_banner > ul > li:nth-child(1) {background-image: url(../../../../img/piano/adbox/ad_bg01.jpg);}
-#adBox > .slide_banner > ul > li:nth-child(2) {background-image: url(../../../../img/piano/adbox/ad_bg02.jpg);}
-#adBox > .slide_banner > ul > li:nth-child(3) {background-image: url(../../../../img/piano/adbox/ad_bg03.jpg);}

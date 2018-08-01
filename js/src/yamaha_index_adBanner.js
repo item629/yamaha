@@ -1,5 +1,4 @@
 (function($){
-  var adBox        = $('#adBox');
   var indicator    = $('.copytext').children('ul');
   var indiLi       = indicator.children('li');
 
@@ -33,7 +32,7 @@
         i = 0 ;
       });
     }
-  }
+  };
 // 
 
   Tab(i);
@@ -60,9 +59,9 @@
 
   var startSlide = function(){
     setStart = setInterval(function(){
-      (i < slideLen -1) ? i += 1 : i = 1; 
+      i < slideLen -1 ? i += 1 : i = 1; 
       Tab(i); }, timed);
-  }
+  };
 
   var stopSlide = function() {clearInterval( setStart ); };
 
@@ -79,7 +78,7 @@
       i-=1;
     } else if(z === nextBtn && i < indiLength - 1) {
       i+=1;
-    };
+    }
 
     Tab(i);
   });
