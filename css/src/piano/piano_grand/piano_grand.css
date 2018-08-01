@@ -1,0 +1,51 @@
+/* piano_grand.css */
+
+#piano_grand {
+  box-sizing: border-box; padding: 120px 0;
+  width: 100%; height: 630px;
+  background-color: #ddd;
+}
+
+#piano_grand > div {
+  margin: auto;
+  width: 960px; height: 400px;
+}
+
+#piano_grand > div > article {
+  float: left; position: relative;
+  width: 466px; height: 400px;
+  background-color: #ded;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; background-position: center;
+}
+
+.cx_series {
+  margin-right: 26px;
+}
+
+
+#piano_grand > div > article > a {
+  width: 100%; height: 100%; display: block;
+}
+
+#piano_grand > div > article > button {
+  position: absolute; top: 254px; left: 50%; margin-left: -80px;
+  border: 2px solid #fff; border-top: 0; border-bottom: 0;
+  width: 160px; height: 54px; color: #fff; font-size: 1rem;
+}
+
+#piano_grand > div > article > button:before {
+  content: ""; width: 0; height: 100%; display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#piano_grand > div > article > button:hover:before,
+#piano_grand > div > article > button:focus:before {
+  width: 100%;
+}
