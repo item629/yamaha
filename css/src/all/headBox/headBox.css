@@ -11,29 +11,12 @@
   position: fixed; right: 3%; bottom: 3%;
   width: 72px; height: 72px; background-color: #666;}*/
 
-
-
-
-
 /* headBox.css ------------------------------------------------------ */
 
 /*슬라이드 내려가면 배경색이 흰색으로 변경되게*/
 #headBox {
   position: absolute; top: 0; left: 0;
   width: 100%; height: 120px; z-index: 9000;
-}
-
-#headBox:after {
-  position: absolute; top: 120px; z-index: -50;
-  content: " "; display: block;
-  width: 100%; height: 0;
-  border-radius: 0 0 10px 10px;
-  background-color:/* rgba(255,255,255,0.7);*/ #fff;
-  transition: height 500ms linear;
-}
-
-#headBox.show:after {
-  height: 34rem;
 }
 
 #headBox.bgsize:after {
@@ -88,6 +71,7 @@
   margin-right: 0;
 }
 
+
 #gnb > li > a {
   position: relative;
   width: 100%; height: 100%; display: block; 
@@ -96,8 +80,10 @@
 }
 
 #gnb > li > ol {
-  box-sizing: border-box; padding: 1.2rem 0 1rem 0.5rem;
-  width: 100%; height: 0; text-align: center;
+/*  box-sizing: border-box; padding: 1.2rem 0 1rem 0.5rem;*/
+  width: 100%; height: auto; text-align: center;
+  background-color: rgba(255,255,255,0.7); border-radius: 1rem;
+
 }
 
 

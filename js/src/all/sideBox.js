@@ -43,6 +43,11 @@
   var sideBox = $('#sideBox');
   var sideBtn = sideBox.children('#side_btn')
   var mainBtn = $('.mainBtn').find('a');
+  var homeBtn = $('.home').find('a');
+
+  sideBox.animate({right: '-180px'});
+  $('#view').css({display:'none'});
+  mainBtn.html('<span>open</span><i class="fas fa-align-left"></i>');
 
   mainBtn.on('click', function(e){
     e.preventDefault();
@@ -61,6 +66,13 @@
       mainBtn.html('<span>esc</span><i class="fas fa-times"></i>'); 
     };
 
+  });
+
+  homeBtn.on('click', function(e){
+
+    $(window).animate({scrollTop:0}, 1000);
+    $('html, body').animate({scrollTop:0}, 1000);
+    
   });
 
 

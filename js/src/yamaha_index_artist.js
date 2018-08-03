@@ -25,7 +25,17 @@
     {"img" : "sande.jpg",         "title" : "동영상17"},
     {"img" : "tristano.jpg",      "title" : "동영상18"},
     {"img" : "mikadze.jpg",       "title" : "동영상19"},
-    {"img" : "straub.jpg",        "title" : "동영상20"}
+    {"img" : "straub.jpg",        "title" : "동영상20"},
+    {"img" : "pizarro.jpg",       "title" : "동영상21"},
+    {"img" : "sande.jpg",         "title" : "동영상22"},
+    {"img" : "tristano.jpg",      "title" : "동영상23"},
+    {"img" : "mikadze.jpg",       "title" : "동영상24"},
+    {"img" : "straub.jpg",        "title" : "동영상25"},
+    {"img" : "pizarro.jpg",       "title" : "동영상26"},
+    {"img" : "sande.jpg",         "title" : "동영상27"},
+    {"img" : "tristano.jpg",      "title" : "동영상28"},
+    {"img" : "mikadze.jpg",       "title" : "동영상29"},
+    {"img" : "straub.jpg",        "title" : "동영상30"},
   ]
 
   var i = 0;
@@ -55,7 +65,7 @@
 
     artiIndiLi.eq(x).addClass('active');
     artiIndiLi.eq(x).siblings('li').removeClass('active');
-    var c = x * -100 + '%';
+    var c = x * -80 + '%';
     vedio.stop().animate({marginLeft: c}, 1000);
 
   });

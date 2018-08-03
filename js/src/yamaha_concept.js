@@ -2,7 +2,7 @@
 
   var mdBox      = $('.modal_box');
   var mdBg       = $('.modal_bg');
-  var video      = mdBox.find('source')
+  var video      = mdBox.children('video');
 
   var conceptBox = $('#conceptBox');
   var conArt     = conceptBox.find('article');
@@ -20,16 +20,17 @@
   avantBtn.on('click',['button'],function(e){
     e.preventDefault();
     var thisI = $(this).parent(conArt).index();
+    console.log(thisI);
 
 
     if(thisI === 0) {
       mdBox.fadeIn();
       mdBg.fadeIn();
-      video.attr({src:"../video/yamaha_disklavier.mp4", type: "video/mp4"});
-    } else if(thisI === 1) {
+      mdBox.html('<video controls="controls"><source src="../video/yamaha_AvantGrand_NU1X.mp4" type="video/mp4"></video>');
+    } else {
       mdBox.fadeIn();
       mdBg.fadeIn();
-      video.attr({src:"../video/yamaha_AvantGrand_NU1X.mp4", type: "video/mp4"});
+      mdBox.html('<video controls="controls"><source src="../video/yamaha_disklavier.mp4" type="video/mp4"></video>');
     }
 
   });
@@ -37,6 +38,7 @@
   mdBg.on('click', function(){
     mdBox.fadeOut();
     mdBg.fadeOut();
+    mdBox.html('');
   });
 
 })(jQuery);

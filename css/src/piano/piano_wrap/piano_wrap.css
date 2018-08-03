@@ -14,15 +14,30 @@
   #sub_map {
     position: absolute; top: 100px; right: 50%; margin-right: -628px;
     width: 148px; height: 20px;
-    background-color: #ccc;
+  }
+
+  #sub_map > a {
+    float: left;
+    display: block; height: 100%; width: 40%;
+    text-align: center;
+  }
+
+  #sub_map > a:last-of-type{
+    float: right;
+  }
+
+  #sub_map > span {
+    float: left;
+    width: 20%; height: 100%;
+    text-align: center;
   }
 
   .piano {
     position: relative;
-    margin: auto; margin-bottom: 100px;
+    margin-bottom: 100px;
     padding-top: 100px;
-    box-sizing: border-box; border-top: 1px dotted #ccc;
-    width: 90%; height: 590px;
+    box-sizing: border-box; border-top: 1px dotted #dfdfdf;
+    width: 100%; height: 590px;
   }
 
   .up {
@@ -30,8 +45,8 @@
   }
 
   #piano_wrap h4 {
-    position: absolute; top: -24px; left: 0;
-    width: 190px; height: 22px; color: #ccc;
+    position: absolute; top: -24px; left: 10px;
+    width: 190px; height: 22px; color: #222;
   }
 
   .piano > ul {

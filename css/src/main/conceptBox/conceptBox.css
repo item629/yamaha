@@ -39,7 +39,7 @@
 }
 
 #conceptBox > div > article > button {
-  position: absolute; top: 254px; left: 50%; margin-left: -80px;
+  position: absolute; top: 254px; left: 50%; margin-left: -80px; z-index: 2;
   border: 2px solid #fff; border-top: 0; border-bottom: 0; z-index: 1000;
   width: 160px; height: 54px; color: #fff; font-size: 1rem;
 }
@@ -47,7 +47,7 @@
 #conceptBox > div > article > button:before {
   content: ""; width: 0; height: 100%; display: block;
   background-color: rgba(255, 255, 255, 0.2);
-  transition-duration: 0.4s;
+  transition-duration: 0.4s; z-index: -1;
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
   position: absolute;
   top: 0;

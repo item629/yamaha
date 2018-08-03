@@ -19,7 +19,7 @@
 }
 
 #sns_b > button {
-  position: absolute; top: 40%; left: 50%; margin-left: 100px;
+  position: absolute; top: 40%; left: 50%; margin-left: 100px; z-index: 2;
   width: 240px; height: 54px; border: 2px solid #fff; border-top: 0; border-bottom: 0;
   color: #fff; font-size: 0.875rem; /*font-weight: bold;*/
   text-align: center; line-height: 54px; text-transform: capitalize;
@@ -28,7 +28,7 @@
 #sns_b > button:before {
   content: ""; width: 0; height: 100%; display: block;
   background-color: rgba(255, 255, 255, 0.2);
-  transition-duration: 0.4s;
+  transition-duration: 0.4s; z-index: -1;
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
   position: absolute;
   top: 0;

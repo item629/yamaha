@@ -31,29 +31,49 @@
   var olLink    = gnbOl.find('a');
   var headnavA  = headNav.find('a');
   var unbLi     = $('#unb').children('li');
+  var gnbLen    = gnbLi.length;
 
   gnbOl.hide();
 
-  headNav.on('mouseenter',['a'], function(e){
+  gnbLi.find('a').on('mouseenter',['a'], function(e){
     e.preventDefault();
-    gnbOl.stop().fadeIn(500);
-    headBox.addClass('show');
-    headBox.addClass('bgView');
+    var this_ = $(this).parent('li').index();
+
+
+    gnbOl.eq(this_).stop().fadeIn(500);
+    gnbOl.eq(this_).addClass('show');
+    gnbOl.eq(this_).addClass('bgView');
   });
 
-  Navi.on('mouseleave',['a'], function(e){
+  gnbLi.find('a').on('mouseleave',['a'], function(e){
     e.preventDefault();
-    gnbOl.stop().fadeOut(500);
-    headBox.removeClass('show');
+    var this_ = $(this).parent('li').index();
+
+    gnbOl.eq(this_).stop().fadeOut(500);
+    gnbOl.eq(this_).removeClass('show');
   });
 
-  headnavA.on('focus', function(e){  
-    headNav.trigger('mouseenter');
+
+  gnbLi.children('a').on('focus', function(e){  
+    e.preventDefault();
+    var this_ = $(this).parent('li').index();
+    console.log(this_);
+
+
+    gnbOl.eq(this_).stop().fadeIn(500);
+    gnbOl.eq(this_).addClass('show');
+    gnbOl.eq(this_).addClass('bgView');
+
+    gnbLi.eq(this_).find('a').eq(-1).on('blur', function(e){
+      e.preventDefault();
+
+      gnbOl.stop().fadeOut(500);
+      gnbOl.removeClass('show');
+    });
   });
 
-  headnavA.eq(-1).on('blur',['a'], function(e){
-    headNav.trigger('mouseleave');    
-  });
+
+  
 
 
   var bestBox = $('#bestBox');
@@ -66,4 +86,26 @@
   specialBox.find('a').on('click', function(e){
     e.preventDefault();
   });
+
+
+  /* 테스트~ 드래그, 오른쪼 마우스 금지*/
+  // $(document).ready(function() {
+  //   $(document).bind("contextmenu", function(e){
+  //       return false;
+  //   });
+ 
+  //   $('img').bind("contextmenu",function(e){ 
+  //       return false; 
+  //   }); 
+ 
+  //   $('img').bind("selectstart",function(e){ 
+  //       return false;  
+  //   }); 
+  // }); 
+   
+  // document.oncontextmenu=function(){return false;} // 우클릭 방지
+  // document.onselectstart=function(){return false;} // 드래그 방지
+  // document.ondragstart=function(){return false;} // 선택 방지
+  // document.onmousedown=function(){return false;}
+
 })(jQuery);

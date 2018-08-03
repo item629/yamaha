@@ -7,15 +7,18 @@
 @import url('../all/sideBox/sideBox_pc.css');
 
 @import url('./piano_adBox/piano_adBox.css');
-@import url('./piano_adBox/piano_adBox_pc.css');
 @import url('./piano_adBox/piano_adBox_tablet.css');
 @import url('./piano_adBox/piano_adBox_mobile.css');
 
 @import url('./piano_wrap/piano_wrap.css');
+@import url('./piano_wrap/piano_wrap_tablet.css');
+@import url('./piano_wrap/piano_wrap_mobile.css');
 
 @import url('./piano_grand/piano_grand.css');
 
 @import url('./piano_after/piano_after.css');
+@import url('./piano_after/piano_after_tablet.css');
+@import url('./piano_after/piano_after_mobile.css');
 
 @import url('../all/subBox/subBox.css');
 @import url('../all/subBox/subBox_tablet.css');

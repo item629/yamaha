@@ -68,7 +68,7 @@
   startSlide();
 
   // 버튼 누르면 좌우로 슬라이드 + 누르면 자동 슬라이드 멈추게
-  slideBtn.find('button').on('focus', function(e){
+  slideBtn.find('button').on('click', function(e){
     e.preventDefault();
     stopSlide();
 
