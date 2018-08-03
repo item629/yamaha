@@ -1,5 +1,6 @@
 (function($){
     // headBox 배경색 스크롤 내리면 나타나게 만들기
+    // 높이도 변경되게 만들고 unb 숨김
   var headBox   = $('#headBox');
   var headTop   = headBox.offset().top;
   var win       = $(window);
