@@ -35,7 +35,7 @@
 
   gnbOl.hide();
 
-  gnbLi.find('a').on('mouseenter',['a'], function(e){
+  gnbLi.children('a').on('mouseenter',['a'], function(e){
     e.preventDefault();
     var this_ = $(this).parent('li').index();
 
@@ -45,12 +45,12 @@
     gnbOl.eq(this_).addClass('bgView');
   });
 
-  gnbLi.find('a').on('mouseleave',['a'], function(e){
+  headNav.on('mouseleave',['a'], function(e){
     e.preventDefault();
     var this_ = $(this).parent('li').index();
 
-    gnbOl.eq(this_).stop().fadeOut(500);
-    gnbOl.eq(this_).removeClass('show');
+    gnbOl.stop().fadeOut(500);
+    gnbOl.removeClass('show');
   });
 
 

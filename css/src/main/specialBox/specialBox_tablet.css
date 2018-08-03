@@ -1,5 +1,5 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  #specialBox{height: 790px;}
-  .special_wrap {margin-left: -320px; top: 75px; width: 640px; height: 640px;}
+  #specialBox{height: 49.375rem;}
+  .special_wrap {margin-left: -20rem; top: 4.6875rem; width: 40rem; height: 40rem;}
   #text_area {display: none;}
 }

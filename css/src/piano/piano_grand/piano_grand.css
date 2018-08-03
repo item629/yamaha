@@ -1,27 +1,35 @@
 /* piano_grand.css */
 
 #piano_grand {
-  box-sizing: border-box; padding: 120px 0;
-  width: 100%; height: 630px;
-  background-color: #ddd;
+  box-sizing: border-box; padding: 7.5rem 0;
+  width: 100%; height: 39.375rem;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../../../../img/snsBox/sns_b.png); background-attachment: fixed;
 }
 
 #piano_grand > div {
   margin: auto;
-  width: 960px; height: 400px;
+  width: 60rem; height: 25rem;
 }
 
 #piano_grand > div > article {
   float: left; position: relative;
-  width: 466px; height: 400px;
+  width: 29.125rem; height: 25rem;
   background-color: #ded;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover; background-position: center;
+  background-size: cover;
 }
 
 .cx_series {
-  margin-right: 26px;
+  margin-right: 1.625rem; background-position: 50%;
+  background-image: url(../../../../img/cx_series.jpg);
+}
+
+.gc_series {
+  background-position:80%;
+  background-image: url(../../../../img/gc_series.jpg);
 }
 
 
@@ -30,9 +38,9 @@
 }
 
 #piano_grand > div > article > button {
-  position: absolute; top: 254px; left: 50%; margin-left: -80px;
-  border: 2px solid #fff; border-top: 0; border-bottom: 0;
-  width: 160px; height: 54px; color: #fff; font-size: 1rem;
+  position: absolute; top: 15.875rem; left: 50%; margin-left: -5rem;
+  border: 0.125rem solid #fff; border-top: 0; border-bottom: 0;
+  width: 10rem; height: 3.375rem; color: #fff; font-size: 1rem;
 }
 
 #piano_grand > div > article > button:before {

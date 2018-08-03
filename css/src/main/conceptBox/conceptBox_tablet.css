@@ -1,8 +1,8 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  #conceptBox {height: 1024px;}
-  #conceptBox > div {width: 618px; height: 816px;}
-  #conceptBox > div > article {width: 618px; height: 402px;}
-  .avantgrand {margin-bottom: 14px;}
-  #conceptBox > div > article > button {top: 266px; margin-left: -83px;
+  #conceptBox {height: 64rem;}
+  #conceptBox > div {width: 38.625rem; height: 51rem;}
+  #conceptBox > div > article {width: 38.625rem; height: 25.125rem;}
+  .avantgrand {margin-bottom: 0.875rem;}
+  #conceptBox > div > article > button {top: 16.625rem; margin-left: -5.1875rem;
       background-image: url(../../../../img/adBox/rgba255.png);}
 }

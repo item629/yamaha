@@ -2,14 +2,14 @@
 
 #artistBox {
   position: relative;
-  box-sizing: border-box; padding: 100px 0; 
-  width: 100%; height: 925px;
+  box-sizing: border-box; padding: 6.25rem 0; 
+  width: 100%; height: 57.8125rem;
 }
 
 #artistBox > h2 {
-  width: 340px; height: 38px;
-  margin: auto; text-align: center; line-height: 38px;
-  font-weight: bold; color: #48217a; margin-bottom: 125px;
+  width: 21.25rem; height: 2.375rem;
+  margin: auto; text-align: center; line-height: 2.375rem;
+  font-weight: bold; color: #48217a; margin-bottom: 7.8125rem;
   text-transform: capitalize;
 }
 
@@ -18,14 +18,14 @@
 
 
 .arti_indi {
-  box-sizing: border-box; padding: 0 2px;
-  position: absolute; top: 200px; left: 50%; margin-left: -53px;
-  width: 106px; height: 20px;
+  box-sizing: border-box; padding: 0 0.125rem;
+  position: absolute; top: 12.5rem; left: 50%; margin-left: -3.3125rem;
+  width: 6.625rem; height: 1.25rem;
 }
 
 .arti_indi > li {
-  float: left; margin-right: 8px;
-  width: 14px; height: 15px;
+  float: left; margin-right: 0.5rem;
+  width: 0.875rem; height: 0.9375rem;
 }
 
 .arti_indi > li:last-child {
@@ -34,7 +34,7 @@
 
 .arti_indi > li > a {
    box-sizing: border-box; border-radius: 1rem; 
-   border: 1px solid #48217a;
+   border: 0.0625rem solid #48217a;
 }
 
 .arti_indi > li.active > a,
@@ -55,18 +55,18 @@
 /* slide_vedio --------------------------------------- */
 
 .slide_vedio > .vedio_list {
-  width: 500%; height: 350px;
+  width: 500%; height: 21.875rem;
 }
 
 .slide_vedio > .vedio_list > li {
   float: left; position: relative;
-  margin-right: 70px; width: 330px; height: 350px;
+  margin-right: 4.375rem; width: 20.625rem; height: 21.875rem;
   background-repeat: no-repeat; background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-.slide_vedio > .vedio_list > li:nth-child(1) {margin-left: 50px;}
+.slide_vedio > .vedio_list > li:nth-child(1) {margin-left: 3.125rem;}
 
 .slide_vedio > .vedio_list > li > a {
   display: block;
@@ -74,7 +74,7 @@
 }
 
 .slide_vedio > .vedio_list > li > a > span {
-  position: absolute; bottom: -30px;
+  position: absolute; bottom: -1.875rem;
   width: 100%; height: auto; text-align: center; font-weight: bold;
 }
 

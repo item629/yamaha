@@ -3,15 +3,15 @@
 
 #specialBox{
   position: relative;
-  width: 100%; height: 750px;
+  width: 100%; height: 46.875rem;
   background-image: url(../../../../img/specialBox/specialbg.png);
   -webkit-background-size: cover; background-repeat: no-repeat;
   background-size: cover; background-attachment: fixed;
 }
 
 .special_wrap {
-  position: absolute; top: 0; left: 50%; margin-left: -480px;
-  width: 750px; height: 750px;
+  position: absolute; top: 0; left: 50%; margin-left: -30rem;
+  width: 46.875rem; height: 46.875rem;
 }
 
 .special_wrap > ul {
@@ -31,7 +31,7 @@
 }
 
 .special_wrap > ul > li > a > h3 {
-  box-sizing: border-box; padding-top: 80px;
+  box-sizing: border-box; padding-top: 5rem;
   font-size: 2rem;
 }
 
@@ -53,19 +53,19 @@
 
 
 #text_area {
-  position: absolute; left: 50%; margin-left: 280px; top: 255px;
-  width: 340px; height: 154px;
+  position: absolute; left: 50%; margin-left: 17.5rem; top: 15.9375rem;
+  width: 21.25rem; height: 9.625rem;
 }
 
 #text_area > p {
-  margin-bottom: 38px;
+  margin-bottom: 2.375rem;
   text-align: center; font-size: 1.3rem; color: #fff; font-weight: bold;
 }
 
 #text_area > button {
-  margin-left: 90px; position: relative;
-  width: 160px; height: 54px; text-align: center; line-height: 54px;
-  border: 2px solid #fff; border-top: 0; border-bottom: 0; color: #fff;
+  margin-left: 5.625rem; position: relative;
+  width: 10rem; height: 3.375rem; text-align: center; line-height: 3.375rem;
+  border: 0.125rem solid #fff; border-top: 0; border-bottom: 0; color: #fff;
   font-size: 0.875rem;
 }
 

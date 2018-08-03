@@ -1,7 +1,7 @@
 
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  #adBox {height: 580px;}
+  #adBox {height:36.25rem;}
   .copytext {top: 60%; margin-left: -2.928257vw; /*40/1366*100*/ width: 47.916666vw; /*368/768*100*/ height: 22.786458vw; /*175/768*100*/}
   #adBox > .copytext > .indicator {bottom: -4.6785vw; /*36/768*100*/}
   .text_area {top: 60%;  margin-left: -2.928257vw; /*40/1366*100*/ width: 47.916666vw; /*368/768*100*/ height: 22.786458vw; /*175/768*100*/}

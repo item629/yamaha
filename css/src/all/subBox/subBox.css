@@ -2,20 +2,20 @@
 
 #subBox {
   position: relative;
-  box-sizing: border-box; border-top: 0.5px solid #f2f2f2;      
+  box-sizing: border-box; border-top: 0.03125rem solid #f2f2f2;      
   width: 100%; height: auto;
 }
 
 #subBox:before,
 #subBox::before {
   content: " "; display: block;
-  position: absolute; top: 50px; left: 0;
-  width: 100%; height: 0.5px; border-top: 0.5px solid #f2f2f2;
+  position: absolute; top: 3.125rem; left: 0;
+  width: 100%; height: 0.03125rem; border-top: 0.0.3125rem solid #f2f2f2;
 }
 
 .sub {
   margin: auto;
-  width: 960px; height: 50px;
+  width: 60rem; height: 3.125rem;
 }
 
 .sub > ul {
@@ -28,8 +28,8 @@
 }
 
 .l_area {
-  float: left; margin-left: 5px;
-  width: 520px; height: 100%; background-image: url(../../../../img/subBox/subFnbBox_01.png);
+  float: left; margin-left: 0.3125rem;
+  width: 32.5rem; height: 100%; background-image: url(../../../../img/subBox/subFnbBox_01.png);
 }
 
 .l_area > ul {
@@ -38,23 +38,23 @@
 
 .l_area > ul > li {
   position: relative;
-  float: left; margin-right: 30px; height: 100%;
+  float: left; margin-right: 1.875rem; height: 100%;
 }
 
 .l_area > ul > li:nth-child(1) {
-  width: 172px;
+  width: 10.75rem;
 }
 
 .l_area > ul > li:nth-child(2) {
-  width: 96px; margin-right: 32px;
+  width: 6rem; margin-right: 2rem;
 }
 
 .l_area > ul > li:nth-child(3) {
-  width: 76px;
+  width: 4.75rem;
 }
 
 .l_area > ul > li:nth-child(4) {
-  margin-right: 0; width: 84px;
+  margin-right: 0; width: 5.25rem;
 }
 
 
@@ -69,17 +69,17 @@
 .l_area > ul > li > a:hover::after,
 .l_area > ul > li > a:focus:after,
 .l_area > ul > li > a:focus::after {
-  width: 90%; height: 3px; transform: translate(-3px);
+  width: 90%; height: 0.1875rem; transform: translate(-0.1875rem);
 }*/
 
 .r_area {
   float: right; background-image: url(../../../../img/subBox/subFnbBox_02.png);
-  width: 384px; height: 100%;
+  width: 24rem; height: 100%;
 }
 
 .r_area > button {
   display: none;
-  width: 126px; height: 100%; background-color: #48217a;
+  width: 7.875rem; height: 100%; background-color: #48217a;
   text-align: center; text-transform: uppercase; font-weight: bold; color: #fff;
 }
 
@@ -87,12 +87,12 @@
 /* -------------------------------------------------- */
 .sub_info {
   margin: auto;
-  width: 1250px; height: 280px;
+  width: 78.125rem; height: 17.5rem;
 }
 
 .sub_info > article {
   float: left; box-sizing: border-box;
-  height: 100%; border-right: 1px dotted #666;
+  height: 100%; border-right: 0.0625rem dotted #666;
 }
 
 .sub_info > article:last-of-type {
@@ -100,18 +100,18 @@
 }
 
 .sub_info > article > h4 {
-  margin-top: 20px; margin-bottom: 36px;
+  margin-top: 1.25rem; margin-bottom: 2.25rem;
   font-weight: bold; font-size: 2.8rem; text-align: left;
   text-transform: uppercase; color: #666;
 }
 
 
 .sub_info > article > p {
-  margin-bottom: 10px;  font-size: 0.875rem;
+  margin-bottom: 0.625rem;  font-size: 0.875rem;
 }
 
 .sub_info > .contactUs {
-  box-sizing: border-box; padding-left: 14px;  width: 390px;
+  box-sizing: border-box; padding-left: 0.875rem;  width: 24.375rem;
   }
 
   .contactUs >  .title {
@@ -128,17 +128,17 @@
   }
 
 .sub_info > .community {
-  width: 442px;
-  padding-left: 46px;
+  width: 27.625rem;
+  padding-left: 2.875rem;
 }
   .community > ul {
-    width: 346px; height: 110px;
+    width: 21.625rem; height: 6.875rem;
   }
 
   .community > ul > li {
     float: left;
-    width: 160px; height: 50px; margin-right: 26px;
-    margin-bottom: 10px;
+    width: 10rem; height: 3.125rem; margin-right: 1.625rem;
+    margin-bottom: 0.625rem;
   }
 
   .community > ul > li:nth-child(2n) {
@@ -148,8 +148,8 @@
   .community > ul > li > a {
     display: block; width: 100%; height: 100%; position: relative;
     color: #48217a; font-size: 1.2rem; font-weight: bold;
-    text-align: center; text-transform: uppercase; line-height: 50px;
-    box-sizing: border-box; border: 1px solid #48217a;
+    text-align: center; text-transform: uppercase; line-height: 3.125rem;
+    box-sizing: border-box; border: 0.0625rem solid #48217a;
   }
 
   .community > ul > li > a:before {
@@ -173,7 +173,7 @@
   }
 
 .sub_info > .locations {
-  box-sizing: border-box; padding-left: 44px; width: 416px; 
+  box-sizing: border-box; padding-left: 2.75rem; width: 26rem; 
 }
 
 .sub_info > .locations > p {

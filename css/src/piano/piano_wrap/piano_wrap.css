@@ -1,19 +1,19 @@
 #piano_wrap {
   position: relative;
-  box-sizing: border-box; padding: 100px 0;
-  width: 100%; height: auto; min-height: 500px;
+  box-sizing: border-box; padding: 6.25rem 0;
+  width: 100%; height: auto; min-height: 31.25rem;
 }
 
 #piano_wrap > h2 {
-  width: 146px; height: 38px;
-  margin: auto; text-align: center; line-height: 38px;
-  font-weight: bold; color: #48217a; margin-bottom: 124px;
-  text-transform: uppercase; margin-bottom: 100px;
+  width: 9.125rem; height: 2.375rem;
+  margin: auto; text-align: center; line-height: 2.375rem;
+  font-weight: bold; color: #48217a; margin-bottom: 7.75rem;
+  text-transform: uppercase; margin-bottom: 6.25rem;
 }
 
   #sub_map {
-    position: absolute; top: 100px; right: 50%; margin-right: -628px;
-    width: 148px; height: 20px;
+    position: absolute; top: 6.25rem; right: 50%; margin-right: -39.25rem;
+    width: 9.25rem; height: 1.25rem; font-size: 0.785rem; line-height: 1.25rem;
   }
 
   #sub_map > a {
@@ -34,10 +34,10 @@
 
   .piano {
     position: relative;
-    margin-bottom: 100px;
-    padding-top: 100px;
-    box-sizing: border-box; border-top: 1px dotted #dfdfdf;
-    width: 100%; height: 590px;
+    margin-bottom: 6.25rem;
+    padding-top: 6.25rem;
+    box-sizing: border-box; border-top: 0.0625rem dotted #dfdfdf;
+    width: 100%; height: 36.875rem;
   }
 
   .up {
@@ -45,19 +45,19 @@
   }
 
   #piano_wrap h4 {
-    position: absolute; top: -24px; left: 10px;
-    width: 190px; height: 22px; color: #222;
+    position: absolute; top: -1.5rem; left: 10%;
+    width: 11.875rem; height: 1.375rem; color: #222;
   }
 
   .piano > ul {
     margin: auto;
-    width: 1260px; height: 510px;
+    width: 78.75rem; height: 31.875rem;
   }
 
   .piano > ul > li {
     position: relative;
-    float: left; margin-right: 15px;
-    width: 303px; height: 100%;
+    float: left; margin-right: 0.9375rem;
+    width: 18.9375rem; height: 100%;
   }
 
   .piano > ul > li:nth-child(4n) {
@@ -65,18 +65,18 @@
   }
 
   .piano > ul > li > a {
-  display: block; width: 100%; height: 460px;
+  display: block; width: 100%; height: 28.75rem;
   }
 
   .piano > ul > li > button {
-    position: absolute; left: 50%; margin-left: -50px;
-    width: 100px; height: 30px;
-    border: 2px solid #222; border-top: 0; border-bottom: 0;
-    text-align: center; line-height: 30px; font-weight: bold;
+    position: absolute; left: 50%; margin-left: -3.125rem;
+    width: 6.25rem; height: 1.875rem; z-index: 2;
+    border: 0.125rem solid #222; border-top: 0; border-bottom: 0;
+    text-align: center; line-height: 1.875rem; font-weight: bold;
   }
 
   .piano > ul > li > button:before {
-    z-index: 0;
+    z-index: -1;
     content: ""; width: 0; height: 100%; display: block;
     background-color: rgba(150,150,150,0.7);
     transition-duration: 0.4s;
@@ -93,24 +93,35 @@
 
 
   .piano > ul > li > a > .piano_img {
-    margin-bottom: 10px;
-    width: 100%; height: 324px; 
-    background-color: #222;
+    margin-bottom: 0.625rem;
+    width: 100%; height: 20.25rem; 
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    background-size: contain;
     background-position: center;
   }
-/*
-  .piano > ul > li:nth-child(1) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
-  .piano > ul > li:nth-child(2) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
-  .piano > ul > li:nth-child(3) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
-  .piano > ul > li:nth-child(4) > a > .piano_img {background-image: url(../../../../img/bestBox/genos.png);}
-*/
+
+  .premium > li:nth-child(1) > a > .piano_img {background-image: url(../../../../img/piano/premuim/CF4.jpg);}
+  .premium > li:nth-child(2) > a > .piano_img {background-image: url(../../../../img/piano/premuim/CF6.jpg);}
+  .premium > li:nth-child(3) > a > .piano_img {background-image: url(../../../../img/piano/premuim/S6X.jpg);}
+  .premium > li:nth-child(4) > a > .piano_img {background-image: url(../../../../img/piano/premuim/CFX.jpg);}
+
+  .grand > li:nth-child(1) > a > .piano_img {background-image: url(../../../../img/piano/grand/C1X.jpg);}
+  .grand > li:nth-child(2) > a > .piano_img {background-image: url(../../../../img/piano/grand/C2X.jpg);}
+  .grand > li:nth-child(3) > a > .piano_img {background-image: url(../../../../img/piano/grand/C3X.jpg);}
+  .grand > li:nth-child(4) > a > .piano_img {background-image: url(../../../../img/piano/grand/C5X.jpg);}
+
+  .upright > li:nth-child(1) > a > .piano_img {background-image: url(../../../../img/piano/upright/JU109.jpg);}
+  .upright > li:nth-child(2) > a > .piano_img {background-image: url(../../../../img/piano/upright/JX113T.jpg);}
+  .upright > li:nth-child(3) > a > .piano_img {background-image: url(../../../../img/piano/upright/U1.jpg);}
+  .upright > li:nth-child(4) > a > .piano_img {background-image: url(../../../../img/piano/upright/YUS5.jpg);}
+
+
+
   .piano > ul > li > a > .piano_img:after,
   .piano > ul > li > a > .piano_img::after {
     content: " "; display: block; position: absolute;
-    width: 100%; height: 324px;
+    width: 100%; height: 20.25rem;
     background-image: url(../../../../img/adBox/rgba255.png);
     -webkit-background-size: cover;
     background-size: cover; opacity: 0; transition: all 300ms ease-out;
@@ -128,7 +139,7 @@
   .piano > ul dt {
     width: 100%; height: auto;
     text-align: center; font-weight: bold; text-transform: capitalize;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   .piano > ul dd {

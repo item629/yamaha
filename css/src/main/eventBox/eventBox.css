@@ -1,20 +1,20 @@
 /* eventBox.css */
 
 #eventBox {
-  box-sizing: border-box; padding: 100px 0;
-  width: 100%; height: 1034px;
+  box-sizing: border-box; padding: 6.25rem 0;
+  width: 100%; height: 64.625rem;
 }
 
 #eventBox > h2 {
-  width: 340px; height: 38px;
-  margin: auto; text-align: center; line-height: 38px;
-  font-weight: bold; color: #48217a; margin-bottom: 116px;
+  width: 21.25rem; height: 2.375rem;
+  margin: auto; text-align: center; line-height: 2.375rem;
+  font-weight: bold; color: #48217a; margin-bottom: 7.25rem;
   text-transform: capitalize;
 }
 
 #eve_wrap {
   margin: auto;
-  width: 1062px; height: 624px;
+  width: 66.375rem; height: 39rem;
 }
 
 #eve_wrap > ul {
@@ -24,26 +24,26 @@
 #eve_wrap > ul > li {
   position: relative;
   float: left;
-  width: 192px; height: 192px; margin-right: 26px; margin-bottom: 18px;
+  width: 12rem; height: 12rem; margin-right: 1.625rem; margin-bottom: 1.125rem;
 }
 
 #eve_wrap > ul > li > a {
   width: 100%; height: 100%; display: block;
-  box-sizing: border-box; border: 1px solid #cacaca;
+  box-sizing: border-box; border: 0.0625rem solid #cacaca;
   background-repeat: no-repeat;
   background-position: center; background-size: cover;
 }
 
 #eve_wrap > ul > li:first-child {
-  width: 402px; height: 402px;
+  width: 25.125rem; height: 25.125rem;
 }
 
 #eve_wrap > ul > li:nth-child(6) {
-  height: 402px; margin-right: 0; margin-top: -210px; 
+  height: 25.125rem; margin-right: 0; margin-top: -13.125rem; 
 }
 
 #eve_wrap > ul > li:nth-child(7) {
-  width: 620px;
+  width: 38.75rem;
 }
 
 #eve_wrap > ul > li:last-child {
@@ -51,7 +51,7 @@
 }
 
 .eve_hei {
-   height: 190px;
+   height: 11.875rem;
 }
 
 #eve_wrap > ul > li:nth-child(1) > a {background-image: url(../../../../img/eventBox/eve_ban_01.jpg);}
@@ -77,13 +77,13 @@
 #eve_wrap > ul > li > a:before,
 #eve_wrap > ul > li > a::before {
   content: "보러가기"; display: block;
-  position: absolute; top: 50%; left: 50%; margin-top: -20px; margin-left: -60px;
-  box-sizing: border-box; border: 2px solid #fff; border-top: 0; border-bottom: 0;
-  font-size: 1rem; text-align: center; line-height: 40px; color: #fff;
+  position: absolute; top: 50%; left: 50%; margin-top: -1.25rem; margin-left: -3.75rem;
+  box-sizing: border-box; border: 0.125rem solid #fff; border-top: 0; border-bottom: 0;
+  font-size: 1rem; text-align: center; line-height: 2.5rem; color: #fff;
   background-image: url(../../../../img/adBox/rgba255.png);
   background-repeat: no-repeat; background-position: center;
   background-size: cover;
-  width: 120px; height: 40px; opacity: 0; transition: all 300ms ease-out;
+  width: 7.5rem; height: 2.5rem; opacity: 0; transition: all 300ms ease-out;
 }
 
 #eve_wrap > ul > li:nth-child(1) > a:before,
@@ -91,13 +91,13 @@
 #eve_wrap > ul > li:nth-child(7) > a:before,
 #eve_wrap > ul > li:nth-child(7) > a::before {
   content: "보러가기"; display: block;
-  position: absolute; top: 50%; left: 50%; margin-top: -27px; margin-left: -80px;
-  box-sizing: border-box; border: 2px solid #fff; border-top: 0; border-bottom: 0;
-  font-size: 1rem; text-align: center; line-height: 54px; color: #fff;
+  position: absolute; top: 50%; left: 50%; margin-top: -1.6875rem; margin-left: -5rem;
+  box-sizing: border-box; border: 0.125rem solid #fff; border-top: 0; border-bottom: 0;
+  font-size: 1rem; text-align: center; line-height: 3.375rem; color: #fff;
   background-image: url(../../../../img/adBox/rgba255.png);
   background-repeat: no-repeat; background-position: center;
   background-size: cover;
-  width: 160px; height: 54px; opacity: 0; transition: all 300ms ease-out;
+  width: 10rem; height: 3.375rem; opacity: 0; transition: all 300ms ease-out;
 }
 
 #eve_wrap > ul > li:hover > a:after,

@@ -1,6 +1,6 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  #piano {height: 1400px;}
-  #piano > ul {margin: auto; width: 648px; height: 1090px;}
-  #piano > ul > li {height: 500px; margin-right: 42px; margin-bottom: 82px;}
-  #piano > ul > li:nth-child(2n) {margin-right: 0;}
+  .piano {height: 87.5rem;}
+  .piano > ul {margin: auto; width: 40.5rem; height: 68.125rem;}
+  .piano > ul > li {height: 31.25rem; margin-right: 2.625rem; margin-bottom: 5.125rem;}
+  .piano > ul > li:nth-child(2n) {margin-right: 0;}
 }

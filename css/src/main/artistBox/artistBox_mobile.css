@@ -1,11 +1,11 @@
 
 
 @media screen and (max-width: 480px) {
-  #artistBox {height: 694px;} 
+  #artistBox {height: 43.375rem;} 
   #artistBox > h2 {width: 70.833333vw; font-size: 1.25rem; /*340/480*100*/}
   #artistBox > .slide {margin-top: 0;}
-  .slide_vedio > .vedio_list {width: 3000%; height: 270px;}
-  .slide_vedio > .vedio_list > li {margin-right: 38px; width: 214px; height: 224px;}
-  .slide_vedio > .vedio_list > li:first-child {margin-left: 10px;}
+  .slide_vedio > .vedio_list {width: 3000%; height: 16.875rem;}
+  .slide_vedio > .vedio_list > li {margin-right: 2.375rem; width: 13.375rem; height: 14rem;}
+  .slide_vedio > .vedio_list > li:first-child {margin-left: 0.625rem;}
   #snsBox {display: none;}
 }

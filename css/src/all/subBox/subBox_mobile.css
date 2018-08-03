@@ -1,24 +1,24 @@
 @media screen and (max-width: 480px) {
   .sub {width: 100%;}
   .sub > ul > li {background-size: contain;}
-  .l_area {width: 200px; background-image: url(../../../../img/subBox/subfnbBox_mobile.png);}
+  .l_area {width: 12.5rem; background-image: url(../../../../img/subBox/subfnbBox_mobile.png);}
   .l_area > ul > li:nth-child(1),
   .l_area > ul > li:nth-child(4) {display: none;}
-  .l_area > ul > li:nth-child(2) {width: 96px; margin-right: 28px;}
-  .l_area > ul > li:nth-child(3) {width: 76px; margin-right: 0;}
+  .l_area > ul > li:nth-child(2) {width: 6rem; margin-right: 1.75rem;}
+  .l_area > ul > li:nth-child(3) {width: 4.75rem; margin-right: 0;}
   .l_area > ul > li > a:after,
   .l_area > ul > li > a::after {display: none;} 
-  .r_area {overflow: hidden; width: 16.40625vw; /*126/768*100*/ min-width: 70px; background-image: none;}
-  .r_area > button {display: block; width: 16.40625vw; /*126/768*100*/ min-width: 70px; font-size: 0.5rem;}  
+  .r_area {overflow: hidden; width: 16.40625vw; /*126/768*100*/ min-width: 4.375rem; background-image: none;}
+  .r_area > button {display: block; width: 16.40625vw; /*126/768*100*/ min-width: 4.375rem; font-size: 0.5rem;}  
   /* --------------------------- */
-  .sub_info {width: 100%; box-sizing: border-box; padding-left: 10px; min-width: 280; height: 450px;}
+  .sub_info {width: 100%; box-sizing: border-box; padding-left: 0.625rem; min-width: 280; height: 28.125rem;}
   .sub_info > article > h4 {width: 100%; font-size: 1.5rem;}  
   .sub_info > .locations {display: none;}
-  .sub_info > article {width: 100%; height: 202px; border: 0;}
-  .sub_info > .contactUs {width: 100%; margin-bottom: 20px; padding-left: 5px; }  
-  .sub_info > .community {width: 100%; padding: 0 5px;}  
+  .sub_info > article {width: 100%; height: 12.625rem; border: 0;}
+  .sub_info > .contactUs {width: 100%; margin-bottom: 1.25rem; padding-left: 0.3125rem; }  
+  .sub_info > .community {width: 100%; padding: 0.03125rem;}  
   .contactUs > .tel {font-size: 1.5rem;} 
   .contactUs > .korea {width: 90%; text-align: justify;}
   .community > ul {width: 100%;}
-  .community > ul > li {width: 41.071428vw; /*115/280*100*/  margin-right: 10px; /*10/650/100*/ }  
+  .community > ul > li {width: 41.071428vw; /*115/280*100*/  margin-right: 0.625rem; /*10/650/100*/ }  
 }

@@ -15,6 +15,8 @@
 @import url('./piano_wrap/piano_wrap_mobile.css');
 
 @import url('./piano_grand/piano_grand.css');
+@import url('./piano_grand/piano_grand_tablet.css');
+@import url('./piano_grand/piano_grand_mobile.css');
 
 @import url('./piano_after/piano_after.css');
 @import url('./piano_after/piano_after_tablet.css');

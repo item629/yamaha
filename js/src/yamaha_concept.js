@@ -26,11 +26,11 @@
     if(thisI === 0) {
       mdBox.fadeIn();
       mdBg.fadeIn();
-      mdBox.html('<video controls="controls"><source src="../video/yamaha_AvantGrand_NU1X.mp4" type="video/mp4"></video>');
+      mdBox.html('<video autoplay="autoplay" controls="controls"><source src="../video/yamaha_AvantGrand_NU1X.mp4" type="video/mp4"></video>');
     } else {
       mdBox.fadeIn();
       mdBg.fadeIn();
-      mdBox.html('<video controls="controls"><source src="../video/yamaha_disklavier.mp4" type="video/mp4"></video>');
+      mdBox.html('<video autoplay="autoplay" controls="controls"><source src="../video/yamaha_disklavier.mp4" type="video/mp4"></video>');
     }
 
   });
