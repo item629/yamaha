@@ -1,0 +1,9 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #piano_grand {height: 64rem;}
+  #piano_grand > div {width: 38.625rem; height: 51rem;}
+  #piano_grand > div > article {width: 38.625rem; height: 25.125rem;}
+  .cx_series {margin-bottom: 0.875rem;}
+  #sub_map {margin-right: -18.75rem;}
+  #piano_grand > div > article > button {top: 16.625rem; margin-left: -5.1875rem;
+      background-image: url(../../../../img/adBox/rgba255.png);}
+}
