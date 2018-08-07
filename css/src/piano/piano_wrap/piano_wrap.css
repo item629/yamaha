@@ -1,7 +1,7 @@
 #piano_wrap {
   position: relative;
-  box-sizing: border-box; padding: 6.25rem 0;
-  width: 100%; height: auto; min-height: 31.25rem;
+  box-sizing: border-box; padding: 100px 0;
+  width: 100%; height: auto; min-height: 500px;
 }
 
 #piano_wrap > h2 {
@@ -34,10 +34,10 @@
 
   .piano {
     position: relative;
-    margin-bottom: 6.25rem;
-    padding-top: 6.25rem;
-    box-sizing: border-box; border-top: 0.0625rem dotted #dfdfdf;
-    width: 100%; height: 36.875rem;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    box-sizing: border-box; border-top: 1px dotted #dfdfdf;
+    width: 100%; height: 590px;
   }
 
   .up {

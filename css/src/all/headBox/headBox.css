@@ -16,11 +16,11 @@
 /*슬라이드 내려가면 배경색이 흰색으로 변경되게*/
 #headBox {
   position: absolute; top: 0; left: 0;
-  width: 100%; height: 7.5rem; z-index: 9000;
+  width: 100%; height: 120px; z-index: 9000;
 }
 
 #headBox.bgsize:after {
-  top: 4.375rem;
+  top: 70px;
 }
 
 #headBox.bgView {
@@ -29,14 +29,14 @@
 }
 
 #headBox.bgsize {
-  height: 4.375rem;
+  height: 70px;
 /*  transition: height 500ms linear;*/
 }
 
 
 #headBox > h1 {
-  position: absolute; left: 50%; margin-left: -39.375rem; bottom: 0;
-  width: 12.5rem; height: 4.375rem;
+  position: absolute; left: 50%; margin-left: -630px; bottom: 0;
+  width: 200px; height: 70px;
   background-image: url(../../../../img/headbox/logo.png);
   background-repeat: no-repeat; background-position: center;
   background-size: contain;
@@ -47,24 +47,24 @@
 /* nav --------------------*/
 
 #navigation {
-  position: absolute; left: 50%; margin-left: -10.9375rem;
-  width: 52.75rem; height: 100%;
+  position: absolute; left: 50%; margin-left: -175px;
+  width: 844px; height: 100%;
 }
 
 /* gnb ------------------------------*/
 
 #gnb {
   position: absolute; bottom: 0;
-  width: 100%; height: 3.5rem;
+  width: 100%; height: 56px;
 }
 
 #gnb > li {
   z-index: 50;
-  float: left; width: 9.75rem; height: 100%; margin-right: 0.375rem;
+  float: left; width: 156px; height: 100%; margin-right: 6px;
 }
 
 #gnb > li:nth-child(3) {
-  width: 12.25rem;
+  width: 196px;
 }
 
 #gnb > li:last-child {
@@ -75,14 +75,14 @@
 #gnb > li > a {
   position: relative;
   width: 100%; height: 100%; display: block; 
-  text-align: center; line-height: 3.5rem;
+  text-align: center; line-height: 56px;
   font-weight: bold;
 }
 
 #gnb > li > ol {
-/*  box-sizing: border-box; padding: 1.2rem 0 1rem 0.5rem;*/
+/*  box-sizing: border-box; padding: 19.2px 0 1rem 0.5rem;*/
   width: 100%; height: auto; text-align: center;
-  background-color: rgba(255,255,255,0.7); border-radius: 1rem;
+  background-color: rgba(255,255,255,0.7); border-radius: 16px;
 
 }
 
@@ -95,8 +95,8 @@
 
 #gnb > li > ol > li {
   width: 100%; height: auto;
-  padding-bottom: 0.2rem; box-sizing: border-box;
-  font-size: 0.875rem; line-height: 2.5rem;
+  padding-bottom: 3px; box-sizing: border-box;
+  font-size: 0.875rem; line-height: 40px;
 }
 
 #gnb > li > ol > li:last-child {
@@ -107,10 +107,15 @@
   width: 100%; height: 100%; display: block;
 }
 
+#gnb > li > ol > li > a:hover,
+#gnb > li > ol > li > a:focus {
+  font-weight: bold; font-size: 1rem;
+}
+
 #gnb > li > a:after,
 #gnb > li > a::after {
   content: " "; display: block; position: absolute;
-  width: 0; height: 0; left: 20%; bottom: 0.5rem; background-color: #48217a;
+  width: 0; height: 0; left: 20%; bottom: 8px; background-color: #48217a;
   transition: all 300ms ease;
 }
 
@@ -118,57 +123,57 @@
 #gnb > li > a:hover::after,
 #gnb > li > a:focus:after,
 #gnb > li > a:focus::after {
-  width: 60%; height: 0.1875rem; transform: translateY(-0.1875rem);
+  width: 60%; height: 3px; transform: translateY(-3px);
 }
 
 
 /* unb ----------------------------*/
 
 #unb {
-/*  position: absolute; top: 0; right: 50%; margin-right: -6.5625rem;  */
+/*  position: absolute; top: 0; right: 50%; margin-right: -105px;  */
   float: right;
-  width: 26.25rem; height: 3.125rem;
+  width: 420px; height: 50px;
 }
 
 #unb > li {
-  float: left; margin-right: 2.3125rem;
+  float: left; margin-right: 37px;
   height: 100%;
 }
 
 #unb > li:nth-child(1) {
-  width: 3.75rem;
+  width: 60px;
 }
 
 #unb > li:nth-child(2) {
-  width: 2.75rem;
+  width: 44px;
 }
 
 #unb > li:nth-child(3) {
-  width: 2.25rem;
+  width: 36px;
 }
 
 #unb > li:nth-child(4) {
-  width: 4.5rem;
+  width: 72px;
 }
 
 #unb > li:nth-child(5) {
-  width: 3.75rem;
+  width: 60px;
 }
 
 #unb > li:last-child {
-  width: 3.75rem;
+  width: 60px;
   margin-right: 0;
 }
 
 #unb > li > a {position: relative;
   width: 100%; height: 100%; display: block; 
-  text-align: center; line-height: 3.125rem; font-size: 0.875rem;
+  text-align: center; line-height: 50px; font-size: 0.875rem;
 }
 
 #unb > li > a:after,
 #unb > li > a::after {
   content: " "; display: block; position: absolute;
-  width: 0; height: 0; left: 0; bottom: 0.5rem; background-color: #48217a;
+  width: 0; height: 0; left: 0; bottom: 8px; background-color: #48217a;
   transition: all 300ms ease;
 }
 
@@ -176,7 +181,7 @@
 #unb > li > a:hover::after,
 #unb > li > a:focus:after,
 #unb > li > a:focus::after {
-  width: 100%; height: 0.1875rem; transform: translateY(-0.1875rem);
+  width: 100%; height: 3px; transform: translateY(-3px);
 }
 
 
@@ -184,26 +189,26 @@
 
 
 #mobile_navi {display: none;
-  position: absolute; right: 1.25rem; top: 0.625rem;
+  position: absolute; right: 20px; top: 10px;
   width: 5rem; height: 2.125rem;
 }
 
 #mobile_navi > button {
   float: left; z-index: 1600;
-  width: 2.125rem; height: 100%; color: #48217a;
-  font-size: 1.5rem; text-align: center; line-height: 2.125rem;
+  width: 34px; height: 100%; color: #48217a;
+  font-size: 24px; text-align: center; line-height: 34px;
 }
 
 .mobile_search {
-  margin-right: 0.625rem;
+  margin-right: 10px;
 }
 
 /* ------------------------- */
 
 #sub_menu {
   display: none;
-  position: fixed; right: 0; top: 3.5rem; z-index: 2000;
-  width: 15.625rem; height: auto; background-color: #fff;/*rgba(255,255,255,0.7);*/
+  position: fixed; right: 0; top: 56px; z-index: 2000;
+  width: 250px; height: auto; background-color: #fff;/*rgba(255,255,255,0.7);*/
 }
 
 #sub_menu > dl {
@@ -212,7 +217,7 @@
 
 #sub_menu > dl > dt {
   border-bottom: 0.125rem solid #dfdfdf;
-  width: 100%; height: 3.125rem;
+  width: 100%; height: 50px;
 }
 
 #sub_menu > dl > dt.active {
@@ -223,7 +228,7 @@
   width: 100%; height: 100%;
   text-align: left; cursor:pointer;
   font-weight: bold; font-family:'myriad pro';
-  letter-spacing:0.05rem; word-spacing:0.2rem;
+  letter-spacing:0.05rem; word-spacing: 0.2rem;
   font-size: 1.2rem; text-transform:uppercase;
 }
 
@@ -232,7 +237,7 @@
 }
 
 #sub_menu > dl > dd {
-  box-sizing:border-box; padding: 0.7rem;
+  box-sizing:border-box; padding: 11px;
   width: 100%; height: auto;
 }
 

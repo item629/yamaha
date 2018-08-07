@@ -2,16 +2,16 @@
   .sub {width: 100%;}
   .l_area > ul > li > a:after,
   .l_area > ul > li > a::after {display: none;}
-  .r_area {overflow: hidden; width: 16.40625vw; /*126/768*100*/ min-width: 6.25rem; background-image: none;}
+  .r_area {overflow: hidden; width: 16.40625vw; /*126/768*100*/ min-width: 100px; background-image: none;}
   .r_area > button {display: block;}
   /*--------------------------------------- */
-  .sub_info {width: 100%; min-width: 40.625rem;}
+  .sub_info {width: 100%; min-width: 650px;}
   .sub_info > article > h4 {font-size: 2rem;}
   .sub_info > .locations {display: none;}
-  .sub_info > .contactUs {width: 49.479166vw; /*380/768*100*/ min-width: 23.75rem;}
-  .sub_info > .community {border-right: 0; padding-left: 0.875rem; width: 35.15625vw; min-width: 16.875rem; /*270/650*100}*/}
+  .sub_info > .contactUs {width: 49.479166vw; /*380/768*100*/ min-width: 380px;}
+  .sub_info > .community {border-right: 0; padding-left: 14px; width: 35.15625vw; min-width: 270px; /*270/650*100}*/}
   .contactUs >  .tel {font-size: 1.5rem;} 
   .contactUs >  .korea {font-size: 0.5rem;}
   .community > ul {width: 100%;}
-  .community > ul > li {width: 15.692307vw; /*102/650*100*/ min-width: 7.1875rem;  margin-right: 1.538461vw; /*10/650/100*/ }  
+  .community > ul > li {width: 15.692307vw; /*102/650*100*/ min-width: 115px;  margin-right: 1.538461vw; /*10/650/100*/ }  
 }
