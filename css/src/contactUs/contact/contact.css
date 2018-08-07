@@ -1,0 +1,79 @@
+#contact {
+  box-sizing: border-box; padding: 100px 0;
+  width: 100%; height: auto; min-height: 500px;
+}
+
+#call {
+  position: relative;
+  padding: 100px 0;
+  box-sizing: border-box; border-top: 1px dotted #222;
+  width: 100%; height: 760px;
+}
+
+#contact h4 {
+  position: absolute; top: -24px; left: 10%;
+  width: 250px; height: 22px; color: #222;
+}
+
+#call_wrap {
+  margin: auto;
+  width: 960px; height: 410px;
+}
+
+#call_wrap > div {
+  float: left;
+  width: 480px; height: 100%;  
+  background-repeat: no-repeat; background-position: center;
+  -webkit-background-size: contain; 
+  box-sizing: border-box; border: 1px solid #222;
+  background-size: contain; opacity: 0;
+  transition: all 600ms linear;
+}
+
+  #no1 {
+    background-image: url(../../../../img/support/communi.jpg);
+    background-color: #fff; transform: translate(0, -400px);
+  }
+
+  #no2 {
+    background-image: url(../../../../img/support/map.svg);
+    background-color: #222; transform: translate(0, 400px);
+  }
+
+  #call_wrap > div.active {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+#call_wrap > button {
+  position: relative; z-index: 2; overflow: hidden;
+  float: left; margin-top: 60px;
+  width: 280px; height: 90px;
+  border: 1px solid #222;
+}
+
+#call_wrap > button:before {
+position: absolute; z-index: -1;
+top: 0; left: -130%;
+content: ""; display: block;
+width: 120%; height: 100%;
+background-color: #222;
+transform: skew(20deg);
+transition:all 0.5s ease;
+}
+
+#call_wrap > button:hover,
+#call_wrap > button:focus {
+  color: #fff;
+}
+
+#call_wrap > button:hover:before,
+#call_wrap > button:focus:before {
+  left: -20px;
+}
+
+
+    .no1_view {
+      margin-left: 190px;
+      margin-right: 20px;
+    }

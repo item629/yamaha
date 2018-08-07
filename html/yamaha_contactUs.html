@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- yamaha_contactUs.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--import css-->
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="../fontawesome/css/all.css"/>
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/contactUs/yamaha_contactUs.css" />
+
+  <title>yamaha</title>
+</head>
+<body>
+  <div id="wrap">
+    <header id="headBox">
+    </header> <!-- // #headBox -->
+
+    <article id="sub_menu">
+    </article> <!-- // #sub_menu -->
+
+    <section id="sideBox">
+    </section> <!-- // #sideBox -->
+
+    <section id="contact_adBox">
+    </section> <!-- // #adBox -->
+
+    <section id="contact_dealers">
+      <h2>고객지원</h2>
+      <article id="sub_map">
+        <h3 class="hidden">Where am I now</h3>
+        <a href="yamaha_index.html">HOME</a>
+        <span><i class="fas fa-angle-right"></i></span>
+        <a href="yamaha_contactUs.html">contactUs</a>
+      </article>
+      <article id="center">
+        <h4>대리점</h4>
+        <div id="map_image"></div>
+        <div id="map_area">
+          <p>가까운 야마하 대리점을 찾으시려면<br />아래의 버튼을 눌러 이동해주세요.</p>
+          <button type="button">대리점 찾으러 가기</button>
+        </div>
+      </article>
+    </section> <!-- // #contact_dealers -->
+
+    <section id="contact_support">
+      <h3 class="hidden">센터 안내</h3>
+      <article id="sup">
+        <h4>커뮤니케이션 센터 및 서비스센터</h4>
+        <article id="sup_wrap">
+          <div id="commu"></div>
+          <div id="servi"></div>
+          <button type="button" class="commu_view">커뮤니케이션센터 알아보기</button>
+          <button type="button" class="servi_view">서비스센터 찾으러 가기</button>
+        </article>
+      </article>
+    </section> <!-- // #contact_support -->
+
+    <section id="contact_Ydacc">
+      <h3 class="hidden">Y-DACC안내</h3>
+      <article id="ydacc">
+        <h4>Y-DACC</h4>
+        <article id="ydacc_logo"></article>
+        <button type="button" class="dacc_view">Y-DACC 알아보기</button>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h3 class="hidden">문의처</h3>
+      <article id="call">
+        <h4>문의처 및 교회지원팀</h4>
+        <article id="call_wrap">
+          <div id="no1"></div>
+          <div id="no2"></div>
+          <button type="button" class="no1_view">문의처</button>
+          <button type="button" class="no2_view">교회지원팀</button>
+        </article>
+      </article>
+    </section>
+
+    <section id="icon"></section>
+
+    <section id="subBox"> </section>
+    <!-- // #subBox -->
+
+
+    <footer id="footBox"></footer>
+    <!-- // #footBox -->
+  </div>
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/yamaha_contactUs.js"></script>
+  <script>
+    (function($){
+      var headBox = $('#headBox');
+      var submenu = $('#sub_menu');
+      var footBox = $('#subBox');
+      var sideBox = $('#sideBox');
+      var foot_line = $('#footBox');
+
+      headBox.load('./all/headBox.html');
+      submenu.load('./all/subBox.html');
+      footBox.load('./all/footBox.html');
+      sideBox.load('./all/sideBox.html');
+      foot_line.load('./all/foot_line.html');
+    })(jQuery);
+  </script>
+</body>
+</html>

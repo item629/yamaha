@@ -1,0 +1,25 @@
+@import url('../all/headBox/headBox.css');
+@import url('../all/headBox/headBox_pc.css');
+@import url('../all/headBox/headBox_tablet.css');
+@import url('../all/headBox/headBox_mobile.css');
+
+@import url('../all/sideBox/sideBox.css');
+@import url('../all/sideBox/sideBox_pc.css');
+
+@import url('./contact_adBox/contact_adBox.css');
+
+@import url('./contact_dealers/contact_dealers.css');
+
+@import url('./contact_support/contact_support.css');
+
+@import url('./contact_Ydacc/contact_Ydacc.css');
+
+@import url('./contact/contact.css');
+
+@import url('../all/subBox/subBox.css');
+@import url('../all/subBox/subBox_tablet.css');
+@import url('../all/subBox/subBox_mobile.css');
+
+@import url('../all/footBox/footBox.css');
+@import url('../all/footBox/footBox_tablet.css');
+@import url('../all/footBox/footBox_mobile.css');

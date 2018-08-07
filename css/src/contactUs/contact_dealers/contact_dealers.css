@@ -1,0 +1,115 @@
+#contact_dealers {
+  box-sizing: border-box; padding: 100px 0;
+  width: 100%; height: auto; min-height: 500px;
+}
+
+#contact_dealers {
+  position: relative;
+  box-sizing: border-box; padding: 100px 0;
+  width: 100%; height: auto; min-height: 500px;
+}
+
+#contact_dealers > h2 {
+  width: 9.125rem; height: 2.375rem;
+  margin: auto; text-align: center; line-height: 2.375rem;
+  font-weight: bold; color: #48217a; margin-bottom: 7.75rem;
+  text-transform: uppercase; margin-bottom: 6.25rem;
+}
+
+  #sub_map {
+    position: absolute; top: 6.25rem; right: 50%; margin-right: -39.25rem;
+    width: 9.25rem; height: 1.25rem; font-size: 0.785rem; line-height: 1.25rem;
+  }
+
+  #sub_map > a {
+    float: left;
+    display: block; height: 100%; width: 40%;
+    text-align: center;
+  }
+
+  #sub_map > a:last-of-type{
+    float: right;
+  }
+
+  #sub_map > span {
+    float: left;
+    width: 20%; height: 100%;
+    text-align: center;
+  }
+
+#center {
+  position: relative;
+  padding: 100px 0;
+  box-sizing: border-box; border-top: 1px dotted #222;
+  width: 100%; height: 610px;
+}
+
+#center h4 {
+  position: absolute; top: -1.5rem; left: 10%;
+  width: 11.875rem; height: 1.375rem; color: #222;
+}
+
+#center > #map_image {
+  position: absolute; left: 50%; margin-left: -530px;
+  width: 520px; height: 410px;
+  background-image: url(../../../../img/dealers/map.jpg);
+  -webkit-background-size: cover;
+  background-size: cover; background-position: center;
+  transform: translate(-600px, 0);
+  transition: all 800ms linear; opacity: 0;
+}
+
+#center > #map_image.active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+#center > #map_area {
+  position: absolute; right: 50%; margin-right: -460px;
+  width: 410px; height: 410px;
+}
+
+#center > #map_area > p {
+  position: absolute; top: 100px; z-index: 3;
+  width: 100%; font-size: 1.2rem;
+  text-align: center; opacity: 0;
+  transform: translate(0, 600px);
+  transition: all 800ms linear;
+}
+
+#center > #map_area > p.active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+#center > #map_area > button {
+  position: absolute; bottom: 100px; left: 50%;
+  margin-left: -130px; z-index: 2; overflow: hidden;
+  width: 280px; height: 90px;
+  border: 1px solid #222;
+}
+
+#center > #map_area > button:before {
+position: absolute; z-index: -1;
+top: 0; left: -130%;
+content: ""; display: block;
+width: 120%; height: 100%;
+background-color: #222;
+transform: skew(20deg);
+transition:all 0.5s ease;
+}
+
+#center > #map_area > button:hover,
+#center > #map_area > button:focus {
+  color: #fff;
+}
+
+#center > #map_area > button:hover:before,
+#center > #map_area > button:focus:before {
+  left: -20px;
+}
+
+.active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
