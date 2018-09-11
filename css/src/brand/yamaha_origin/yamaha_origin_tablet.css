@@ -1,0 +1,5 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #yamaha_origin > h2 {font-size: 2.8rem;}
+  #yamaha_origin > p { width: 80%; text-align: justify; }
+  #sub_map {margin-right: -18.75rem;}
+}

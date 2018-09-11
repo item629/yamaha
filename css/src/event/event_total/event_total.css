@@ -1,0 +1,130 @@
+#event_total {
+  position: relative;
+  box-sizing: border-box; padding: 200px 0 100px;
+  width: 100%; height: auto;
+}
+
+#event_total > h2 {
+  width: auto; height: 38px;
+  margin: auto; margin-bottom: 130px; text-align: center; line-height: 38px;
+  font-weight: bold; color: #222; margin-bottom: 124px;
+  text-transform: capitalize; margin-bottom: 100px; font-size: 4rem;
+/*  transform: translate(0, 100px);*/  transition: all 600ms linear;  /*opacity: 0;*/
+}
+
+#event_total > h2.active {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  #sub_map {
+    position: absolute; top: 100px; right: 50%; margin-right: -39.25rem;
+    width: 200px; height: 20px; font-size: 12.56px; line-height: 20px;
+  }
+
+  #sub_map > a {
+    float: left;
+    display: block; height: 100%; width: 20%;
+    text-align: center;
+  }
+
+  #sub_map > a:last-of-type{
+    float: right; width: 60%;
+  }
+
+  #sub_map > span {
+    float: left; 
+    width: 12%; height: 100%;
+    text-align: center;
+  }
+
+
+#event_banner {
+  margin: auto;
+  width: 60%; height: 500px;
+}
+
+#event_banner > ul {
+  width: 100%; height: 100%;
+}
+
+#event_banner > ul > li {
+  float: left;
+  margin-right: 2%;
+  width: 49%;
+  height: 48%;
+  background-color: #dee;
+}
+
+#event_banner > ul > li:nth-child(1) {
+  height: 100%;
+}
+
+#event_banner > ul > li:nth-child(2) {
+  margin-right: 0;
+  margin-bottom: 2%;
+}
+
+#event_banner > ul > li:nth-child(3) {
+  width: 23%;
+}
+
+#event_banner > ul > li:nth-child(4) {
+  margin-right: 0; 
+  width: 24%;
+}
+
+.slide_banner_area {
+  position: relative;
+}
+
+.event_btn {
+  position: absolute; bottom: 1rem; right: 1rem;
+  width: 200px; height: 40px;
+  background-color: #7cc;
+}
+
+.event_btn > button {
+  width: 40%; height: 100%; 
+  background-color: #0af;
+}
+
+.event_btn > button:nth-of-type(1) {
+  float: left;
+}
+
+.event_btn > button:nth-of-type(2) {
+  float: right;
+}
+
+.eveBanner_box {
+  width: 100%; height: 100%; overflow: hidden;
+}
+
+.eveBanner_wrap {
+  width: 400%; height: 100%; 
+}
+
+.eveBanner_wrap > div {
+  float: left;
+  width: 25%; height: 100%;
+  background-repeat: no-repeat; background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.eveBanner_01 {
+  background-image: url(../../../../img/event/event_01.jpg);
+}
+
+.eveBanner_02 {
+  background-image: url(../../../../img/event/event_02.jpg);
+}
+
+.eveBanner_03 {
+  background-image: url(../../../../img/event/event_03.jpg);
+}
+
+.eveBanner_04 {
+  background-image: url(../../../../img/event/event_04.jpg);
+}

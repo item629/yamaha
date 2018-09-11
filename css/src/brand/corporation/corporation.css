@@ -1,0 +1,71 @@
+#corporation {
+  box-sizing: border-box; 
+  padding: 200px 0 100px;
+  width: 100%; 
+  height: auto; 
+  min-height: 600px;
+}
+
+#corporation > h2 {
+  width: auto; 
+  height: 38px;
+  margin: auto; 
+  text-align: center; 
+  line-height: 2.375rem;
+  font-weight: bold; 
+  color: #222; 
+  margin-bottom: 7.75rem;
+  text-transform: capitalize; 
+  margin-bottom: 6.25rem; 
+  font-size: 4rem;
+  transform: translate(0, 100px);  
+  transition: all 600ms linear; 
+  opacity: 0;
+}
+
+
+#corporation > h2.active {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+
+#corporation > p {
+  margin: auto; 
+  margin-bottom: 50px; 
+  box-sizing: border-box;
+  border: 1px solid #222;
+  padding: 100px 20px;
+  width: 60%; 
+  height: auto;
+  text-align: center;
+}
+
+#corporation > #logovs {
+  margin: auto;
+  width: 800px; 
+  height: 130px;
+}
+
+  #logovs > div {
+    float: left; 
+    margin-right: 20px;
+    box-sizing: border-box; 
+    border: 1px solid #222;
+    width: 390px; 
+    height: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+  }
+
+  #logovs > div:first-of-type {
+    background-image: url(../../../../img/historyOfLogo/logo_yamaha_corp.png);
+    background-size: 96%;
+  }
+
+  #logovs > div:last-of-type {
+    margin-right: 0;
+    background-image: url(../../../../img/historyOfLogo/logo_yamaha_motor.png);
+  }

@@ -8,7 +8,6 @@
     position: relative;
     margin-bottom: 6.25rem;
     padding-top: 6.25rem;
-    box-sizing: border-box; border-top: 0.0625rem dotted #dfdfdf;
     width: 100%; height: 36.875rem;
   }
 
@@ -17,9 +16,32 @@
   }
 
   #after h4 {
-    position: absolute; top: -1.5rem; left: 10%;
-    width: 11.875rem; height: 1.375rem; color: #222;
+    position: absolute;  top: 20px; left: 10%; z-index: 2; overflow: hidden;
+    width: 300px; height: 30px; border: 1px solid #222;
+    text-align: center; line-height: 30px; font-size: 1rem;
+    transition:all 3s ease;
   }
+
+  #after h4:before {
+  position: absolute; z-index: -1;
+  top: 0; left: -130%;
+  content: ""; display: block;
+  width: 120%; height: 100%;
+  background-color: #222;
+  transform: skew(20deg);
+  transition:all 3s ease;
+  }
+
+  #after h4.active,
+  #after h4.active {
+    color: #fff;
+  }
+
+  #after h4.active:before,
+  #after h4.active:before {
+    left: -8px;
+  }
+
 
   .after > ul {
     margin: auto;
@@ -45,17 +67,23 @@
     width: 6.25rem; height: 1.875rem; z-index: 2;
     border: 0.125rem solid #222; border-top: 0; border-bottom: 0;
     text-align: center; line-height: 1.875rem; font-weight: bold;
+    transition-duration: 0.4s;
   }
 
   .after > ul > li > button:before {
     z-index: -1;
     content: ""; width: 0; height: 100%; display: block;
-    background-color: rgba(150,150,150,0.7);
+    background-color: rgba(0,0,0,1);
     transition-duration: 0.4s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     position: absolute;
     top: 0;
     left: 0;
+  }
+
+  .after > ul > li > button:hover,
+  .after > ul > li > button:focus {
+    color: #fff;
   }
 
   .after > ul > li > button:hover:before,

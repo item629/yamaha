@@ -1,0 +1,5 @@
+@media screen and (max-width: 480px) {
+  #moreHistory > ul {width: 90%;}
+  #moreHistory a {font-size: 1.4rem;}
+  #moreHistory > ul > li {width: 100%; height: 200%;}
+}

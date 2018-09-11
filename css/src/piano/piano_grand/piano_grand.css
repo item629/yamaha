@@ -38,6 +38,7 @@
 }
 
 #piano_grand > div > article > button {
+  z-index: 2;
   position: absolute; top: 15.875rem; left: 50%; margin-left: -5rem;
   border: 0.125rem solid #fff; border-top: 0; border-bottom: 0;
   width: 10rem; height: 3.375rem; color: #fff; font-size: 1rem;
@@ -46,7 +47,7 @@
 #piano_grand > div > article > button:before {
   content: ""; width: 0; height: 100%; display: block;
   background-color: rgba(255, 255, 255, 0.2);
-  transition-duration: 0.4s;
+  transition-duration: 0.4s; z-index: -1;
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
   position: absolute;
   top: 0;

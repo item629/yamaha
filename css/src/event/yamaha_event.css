@@ -1,0 +1,21 @@
+@import url('../all/loading.css');
+
+@import url('../all/headBox/headBox.css');
+@import url('../all/headBox/headBox_pc.css');
+@import url('../all/headBox/headBox_tablet.css');
+@import url('../all/headBox/headBox_mobile.css');
+
+@import url('../all/sideBox/sideBox.css');
+@import url('../all/sideBox/sideBox_pc.css');
+
+@import url('./event_adBox/event_adBox.css');
+
+@import url('./event_total/event_total.css');
+
+@import url('../all/subBox/subBox.css');
+@import url('../all/subBox/subBox_tablet.css');
+@import url('../all/subBox/subBox_mobile.css');
+
+@import url('../all/footBox/footBox.css');
+@import url('../all/footBox/footBox_tablet.css');
+@import url('../all/footBox/footBox_mobile.css');

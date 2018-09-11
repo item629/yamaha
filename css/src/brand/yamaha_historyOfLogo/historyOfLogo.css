@@ -1,0 +1,130 @@
+.historyOfLogo {
+  box-sizing: border-box; padding: 100px 0;
+  width: 100%; height: auto;
+}
+
+.of2 {
+  background-image: url(../../../../img/brand/23.jpg);
+  background-attachment: fixed;
+}
+
+.historyOfLogo > h2 {
+  width: auto; height: 38px;
+  margin: auto; text-align: center; line-height: 2.375rem;
+  font-weight: bold; color: #222; margin-bottom: 7.75rem;
+  text-transform: capitalize; margin-bottom: 6.25rem; font-size: 4rem;
+  transform: translate(0, 100px);  transition: all 600ms linear;  opacity: 0;
+}
+
+
+.historyOfLogo > h2.active {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+
+.historyOfLogo > article {
+    margin: auto; box-sizing: border-box; padding-top: 100px; position: relative;
+    width: 60%; height: auto; min-height: 300px;
+  }
+
+.historyOfLogo > article > h3 {
+    position: absolute; top: 20px; left: -20px; z-index: 2; overflow: hidden;
+    width: 300px; height: 30px; border: 1px solid #00f;
+    text-align: center; line-height: 30px; font-size: 1rem;
+  }
+
+.historyOfLogo > article > h3:before {
+  position: absolute; z-index: -1;
+  top: 0; left: -130%;
+  content: ""; display: block;
+  width: 120%; height: 100%;
+  background-color: #00f;
+  transform: skew(20deg);
+  transition:all 3s ease;
+  }
+
+.historyOfLogo > article > h3.active {
+    color: #fff;
+  }
+
+.historyOfLogo > article > h3.active:before {
+    left: -8px;
+  }
+
+
+.historyOfLogo > article > ul {
+    margin: auto; box-sizing: border-box; padding: 100px 0;
+    width: 80%; height: auto;
+  }
+
+.historyOfLogo > article > ul > li:hover {
+  transform: translate(-5px, -5px);
+}
+
+  #tuning > ul > li {
+    border: 1px solid #222;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #tuning > ul > li:last-child {
+    margin-bottom: 0; height: 220px;
+  }
+
+.historyOfLogo > article > ul > li {
+  margin-bottom: 50px; box-sizing: border-box;
+  width: auto; height: 100px;
+}
+
+.historyOfLogo > article > ul > li > div {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.historyOfLogo > article > ul > li > div > .copyBlack {
+  display: none;
+}
+
+  #tuning > ul > li > .tuning_img {
+    float: left; border-right: 1px solid #222;
+    width: 186px; height: 100%;
+  }
+  
+
+  #tuning > ul > li > span {
+    float: left; width: auto;
+    box-sizing: border-box; padding: 30px 20px;
+  }
+
+  #tuning > ul > li:last-child > span {
+    padding: 60px 20px;
+  }
+
+  #yamahaLogo > ul > li {
+    border: 1px solid #fff;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+  }  
+
+  #yamahaLogo > ul > li:nth-child(2) {
+    height: 125px;
+  }
+
+  #yamahaLogo > ul > li > span {
+    float: left; width: auto; color: #fff;
+    box-sizing: border-box; padding: 30px 20px;
+  }
+
+  #yamahaLogo > ul > li:nth-child(2) > span {
+    padding: 30px 20px;
+  }
+
+  #yamahaLogo > ul > li > .logo_img {
+    float: left; background-color: #fff;
+    width: 220px; height: 100%;
+  }
+
+  #yamahaLogo > ul > li > span.lineH {
+  padding: 10px 20px;
+  }
