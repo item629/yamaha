@@ -19,10 +19,6 @@
 </head>
 
 <body>
-  <section id="loading">
-  </section>
-
-
   <div id="wrap">
     <header id="headBox">
     </header>
@@ -43,38 +39,49 @@
 
     <section id="adBox">
       <h2 class="hidden">광고 배너 영역</h2>
+
       <div class="copytext">
         <ul class="indicator hidden_wrap">
           <li><a href="#"><span>첫번째 이미지</span></a></li>
           <li><a href="#"><span>두번째 이미지</span></a></li>
           <li><a href="#"><span>세번째 이미지</span></a></li>
         </ul>
-      </div> <!-- // #indicator -->
+        <!-- // #indicator -->
+      </div>
+
       <div class="slide_btn">
         <button type="button" class="prev_btn">
-          <span class="hidden">이전 버튼</span>
+          <span class="hidden">이전 버튼 영역</span>
           <i class="fas fa-angle-left"></i>
         </button>
         <button type="button" class="next_btn">
-          <span class="hidden">다음 버튼</span>
+          <span class="hidden">다음 버튼 영역</span>
           <i class="fas fa-angle-right"></i>
         </button>
-      </div> <!-- // #slide_btn -->
+      </div>
+      <!-- // #slide_btn -->
+
       <div class="text_area">
         <h3>
           <span class="hidden">이 달의 우리의 목표</span>
         </h3>
         <p>Live it up&#44; share the fun&#46;</p>
         <button type="button">More</button>
-      </div> <!-- // #text_area -->
+      </div>
+      <!-- // #text_area -->
+
+
       <div class="slide_banner hidden_wrap">
         <ul>
           <li><span>이미지 설명</span></li>
           <li><span>이미지 설명</span></li>
           <li><span>이미지 설명</span></li>
         </ul>
-      </div> <!-- // #slide_banner -->
-    </section> <!-- // #adBox -->
+      </div>
+      <!-- // #slide_banner -->
+
+    </section>
+    <!-- // #adBox -->
 
     <section id="bestBox">
       <h2>best 상품</h2>
@@ -187,19 +194,21 @@
           <h3 class="hidden">avantgrand concept video</h3>
           <a href="#"></a>
           <button type="button">concept video</button>
-        </article>                 <!-- // #avantgrand -->
+        </article>
         <article class="clavinova">
           <h3 class="hidden">clavinova concept video</h3>
           <a href="#"></a>
           <button type="button">concept video</button>
-        </article>                 <!-- // #clavinova -->
+        </article>
       </div>
-    </section>                     <!-- // #conceptBox -->
+    </section>
+
     <div class="modal_box">
       <video controls="controls">
       </video>
-    </div>                         <!-- // #modal_box -->
-    <div class="modal_bg"></div>   <!-- // #conceptBox -->
+    </div>
+    <div class="modal_bg"></div>
+    <!-- // #conceptBox -->
 
 
     <section id="snsBox">
@@ -247,16 +256,6 @@
   <script src="../js/base/jquery-ui.min.js"></script>
   <script>
     (function($){
-      var loading = $('#loading');
-      loading.load('./all/loading.html');    
-      
-        $(window).on('load', function(){
-          $('#loading').fadeOut(function(){
-            $('#loading').remove();
-          });
-        });
-
-
       var headBox = $('#headBox');
       var submenu = $('#sub_menu');
       var footBox = $('#subBox');

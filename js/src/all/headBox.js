@@ -1,13 +1,10 @@
 (function($){
-  // 로딩 페이지
-
     // headBox 배경색 스크롤 내리면 나타나게 만들기
     // 높이도 변경되게 만들고 unb 숨김
   var headBox   = $('#headBox');
   var headTop   = headBox.offset().top;
   var win       = $(window);
   var unb       = $('#unb');
-  var winW      = $(window).outerWidth(true);
 
   win.on('scroll', function(e){
 
@@ -18,7 +15,7 @@
       headBox.addClass('bgView');
       headBox.addClass('bgsize');
       unb.hide();
-    } else if(headTop >= winTop && winW > 1366 ) {
+    } else {
       headBox.css({position:'absolute'});
       headBox.removeClass('bgView');
       headBox.removeClass('bgsize');
@@ -44,7 +41,7 @@
     var this_ = $(this).parent('li').index();
 
 
-    gnbOl.eq(this_).stop().slideDown(500);
+    gnbOl.eq(this_).stop().fadeIn(500);
     gnbOl.eq(this_).addClass('show');
     gnbOl.eq(this_).addClass('bgView');
   });
@@ -53,7 +50,7 @@
     e.preventDefault();
     var this_ = $(this).parent('li').index();
 
-    gnbOl.stop().SlideUp(500);
+    gnbOl.stop().fadeOut(500);
     gnbOl.removeClass('show');
   });
 
@@ -64,14 +61,14 @@
     console.log(this_);
 
 
-    gnbOl.eq(this_).stop().slideDown(500);
+    gnbOl.eq(this_).stop().fadeIn(500);
     gnbOl.eq(this_).addClass('show');
     gnbOl.eq(this_).addClass('bgView');
 
     gnbLi.eq(this_).find('a').eq(-1).on('blur', function(e){
       e.preventDefault();
 
-      gnbOl.stop().SlideUp(500);
+      gnbOl.stop().fadeOut(500);
       gnbOl.removeClass('show');
     });
   });
@@ -91,25 +88,5 @@
     e.preventDefault();
   });
 
-
-  /* 테스트~ 드래그, 오른쪽 마우스 금지*/
-  // $(document).ready(function() {
-  //   $(document).bind("contextmenu", function(e){
-  //       return false;
-  //   });
- 
-  //   $('img').bind("contextmenu",function(e){ 
-  //       return false; 
-  //   }); 
- 
-  //   $('img').bind("selectstart",function(e){ 
-  //       return false;  
-  //   }); 
-  // }); 
-   
-  // document.oncontextmenu=function(){return false;} // 우클릭 방지
-  // document.onselectstart=function(){return false;} // 드래그 방지
-  // document.ondragstart=function(){return false;} // 선택 방지
-  // document.onmousedown=function(){return false;}
 
 })(jQuery);

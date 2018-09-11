@@ -29,7 +29,7 @@
 
 #adBox > .copytext > .indicator > li > a {
   display: block; width: 100%; height: 100%; border-radius: 100%;
-  border: 1px solid #f0d;
+  border: 1px solid #fff;
 }
 
 #adBox > .copytext > .indicator > li > a:hover,
@@ -38,7 +38,7 @@
 }
 
 #adBox > .copytext > .indicator > li.select > a {
-  background-color: #f0d;
+  background-color: #fff;
 }
 
 /*slide_btn*/
@@ -98,14 +98,14 @@
 
 .text_area > button {
   float: right; position: relative; z-index: 2;
-  box-sizing: border-box; background-color: #222;
+  box-sizing: border-box; border: 2px solid #fff; border-top: 0; border-bottom: 0;
   width: 140px; height: 50px; font-size: 1rem; color: #fff;
   text-transform: uppercase;
 }
 
 .text_area > button:before {
   content: ""; width: 0; height: 100%; display: block;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(22, 22, 22, 0.5);
   transition-duration: 0.4s; z-index: -1;
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
   position: absolute;
@@ -113,10 +113,6 @@
   left: 0;
 }
 
-.text_area > button:hover,
-.text_area > button:focus {
-  color: #222;
-}
 
 .text_area > button:hover:before,
 .text_area > button:focus:before {

@@ -1,5 +1,5 @@
 #contact_dealers {
-  box-sizing: border-box; padding: 200px 0 100px;
+  box-sizing: border-box; padding: 100px 0;
   width: 100%; height: auto; min-height: 500px;
 }
 
@@ -10,16 +10,10 @@
 }
 
 #contact_dealers > h2 {
-  width: auto; height: 38px;
-  margin: auto; text-align: center; line-height: 38px;
-  font-weight: bold; color: #222; margin-bottom: 124px;
-  text-transform: capitalize; margin-bottom: 100px; font-size: 4rem;
-  transform: translate(0, 100px);  transition: all 600ms linear;  opacity: 0;
-}
-
-#contact_dealers > h2.active {
-  transform: translate(0, 0);
-  opacity: 1;
+  width: 9.125rem; height: 2.375rem;
+  margin: auto; text-align: center; line-height: 2.375rem;
+  font-weight: bold; color: #48217a; margin-bottom: 7.75rem;
+  text-transform: uppercase; margin-bottom: 6.25rem;
 }
 
   #sub_map {
@@ -46,37 +40,14 @@
 #center {
   position: relative;
   padding: 100px 0;
-  box-sizing: border-box;
+  box-sizing: border-box; border-top: 1px dotted #222;
   width: 100%; height: 610px;
 }
 
 #center h4 {
-    position: absolute;  top: 20px; left: 10%; z-index: 2; overflow: hidden;
-    width: 300px; height: 30px; border: 1px solid #222;
-    text-align: center; line-height: 30px; font-size: 1rem;
-    transition:all 3s ease;
+  position: absolute; top: -1.5rem; left: 10%;
+  width: 11.875rem; height: 1.375rem; color: #222;
 }
-
-#center h4:before {
-  position: absolute; z-index: -1;
-  top: 0; left: -130%;
-  content: ""; display: block;
-  width: 120%; height: 100%;
-  background-color: #222;
-  transform: skew(20deg);
-  transition:all 3s ease;
-}
-
-#center h4.active,
-#center h4.active {
-  color: #fff;
-}
-
-#center h4.active:before,
-#center h4.active:before {
-  left: -8px;
-}
-
 
 #center > #map_image {
   position: absolute; left: 50%; margin-left: -530px;
